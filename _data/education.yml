@@ -1,11 +1,28 @@
-- name: University of Washington 
-  description: >-
-    Ph. D in Computer Science, advised by <a href="https://smseitz.com">Steven M. Seitz</a> and
-    <a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a>.<br />
-    Supported by Samsung Scholarship 2015-2020 ($50,000/year for 5 years)
-  dates: Fall 2015 - Spring 2022
+# - name: University of Washington 
+#   description: >-
+#     Ph. D in Computer Science, advised by <a href="https://smseitz.com">Steven M. Seitz</a> and
+#     <a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a>.<br />
+#     Supported by Samsung Scholarship 2015-2020 ($50,000/year for 5 years)
+#   dates: Fall 2015 - Spring 2022
 
-- name: University of Illinois at Urbana-Champaign
+# - name: University of Illinois at Urbana-Champaign
+#   description: >-
+#     B.S. in Computer Science, advised by <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>.
+#   dates: Fall 2009 - Spring 2013
+
+
+- name: University of Maryland, College Park
   description: >-
-    B.S. in Computer Science, advised by <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>.
-  dates: Fall 2009 - Spring 2013
+    M.S. in Computer Science, advised by <a href="https://ruohangao.github.io/">Ruohan Gao</a>.
+    </br>
+    GPA: 4.00/4.00
+  dates: Fall 2024 - Spring 2026
+
+
+- name: The Chinese University of Hong Kong, Shenzhen
+  description: >-
+    B.Eng. (First Class Honor) in Computer Science and Engineering, advised by <a href="https://gaplab.cuhk.edu.cn/pages/people">Xiaoguang Han</a>.
+    </br>
+    GPA: 3.87/4.00 (ranked 4/157)
+  dates: Fall 2020 - Spring 2024
+  

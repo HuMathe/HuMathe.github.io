@@ -43,7 +43,7 @@ layout: null
           <h1 class="subtitle is-5">{{ site.position }}</h1>
         </div>
         <div class="column is-narrow portrait-column">
-          <img class="portrait-image" src="./images/portrait.jpg" alt="A portrait of Keunhong Park" />
+          <img class="portrait-image" src="./images/portrait.jpeg" alt="A portrait of Derong Jin" />
         </div>
         <div class="column has-text-right">
           <p>
@@ -88,7 +88,9 @@ layout: null
         </div>
         {% endfor %}
 
+        <!-- {% if site.data.employment %}
         <h2>Employment</h2>
+        {% endif %}
 
         {% for job in site.data.employment %}
         <div class="columns">
@@ -102,7 +104,7 @@ layout: null
             {{ job.location }}
           </div>
         </div>
-        {% endfor %}
+        {% endfor %} -->
 
         <h2>Publications</h2>
 
@@ -126,8 +128,16 @@ layout: null
             </div>
             {{ publication.description }}
           </div>
-          <div class="column is-one-fifths has-text-right">
+          <div class="column is-one-fourths has-text-right">
             {{ publication.venue }}
+            {% if publication.track %}
+            <br />
+            {% if publication.track_abbr %}
+            ({{ publication.track_abbr }})
+            {% else %}
+            ({{ publication.track }})
+            {% endif %}
+            {% endif %}
           </div>
         </div>
         {% endfor %}

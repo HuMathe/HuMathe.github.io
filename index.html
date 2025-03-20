@@ -6,11 +6,11 @@ layout: null
 
 <head>
   <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-
+  <link rel="icon" href="{{ '/images/maryland-logo.png' | relative_url }}" type="image/png">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <title>{{ site.name }}</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script async src="https://www.googletagmanager.com/gtag/ns.html?id={{ site.google_analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -42,13 +42,14 @@ layout: null
 
         <div class="column is-4">
           <div class="portrait">
-            <img src="{{ '/images/portrait.jpg' | relative_url }}" />
+            <img src="{{ '/images/portrait.jpeg' | relative_url }}" />
           </div>
         </div>
 
         <div class="column">
           <h1 class="title">
-            <b>Hello, I'm {{ site.name }}</b>
+            <b>{{ site.name }}</b>
+            <!-- <b>{{ site.name }} {{ site.name_cn }}</b> -->
           </h1>
           <div class="content has-text-justified">
             {{ site.description | markdownify }}
@@ -104,6 +105,7 @@ layout: null
 
       <h2 class="title is-3">Publications</h2>
 
+
       {% for publication in site.data.publications %}
       <div class="publication-block columns">
 
@@ -138,6 +140,9 @@ layout: null
             </div>
             <div class="publication-venue">
               <span>{{ publication.venue }}</span>
+              {% if publication.track %}
+                <span class="publication-track-emph">({{ publication.track }})<span>
+              {% endif %}
               {% for award in publication.awards %}
                 <span class="publication-venue-emph">{{ award }}<span>
               {% endfor %}
@@ -149,6 +154,13 @@ layout: null
                 <span class="icon"><i class="fas fa-globe-asia"></i></span>
                 <span>Project Page</span>
               </a>
+              {% if publication.pdf %}
+              <a class="external-link button is-small is-ghost" href="{{ publication.pdf }}">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>PDF</span>
+              </a>
+              {% endif %}
+              {% if publication.arxiv %}
               <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>PDF</span>
@@ -157,6 +169,7 @@ layout: null
                 <span class="icon"><i class="ai ai-arxiv"></i></span>
                 <span>arXiv</span>
               </a>
+              {% endif %}
               {% if publication.github %}
               <a class="external-link button is-small is-ghost" href="https://github.com/{{ publication.github }}">
                 <span class="icon"><i class="fa fab fa-github"></i></span>
@@ -169,6 +182,34 @@ layout: null
         </div>
       </div>
       {% endfor %}
+
+      <h2 class="title is-3">Awards</h2>
+
+      {% for award in site.data.awards %}
+      <div class="columns">
+        <div class="column is-four-fifths">
+          <b>{{ award.name }}</b>
+        </div>
+        <div class="column is-one-fifths has-text-right">
+          {{ award.date }}
+        </div>
+      </div>
+      {% endfor %}
+      
+      <h2 class="title is-3">Teaching</h2>
+  
+      {% for course in site.data.teaching %}
+      <div class="columns">
+        <div class="column is-four-fifths">
+          <b>{{course.code}} {{ course.title }}</b>, 
+          {{ course.institution }}
+        </div>
+        <div class="column is-one-fifths has-text-right">
+          {{ course.semester }}
+        </div>
+      </div>
+      {% endfor %}
+
     </div>
   </section>
 
@@ -190,7 +231,7 @@ layout: null
         <div class="column is-8">
           <div class="content">
             <p>
-              Feel free to <a href="https://github.com/keunhong/keunhong.github.io">borrow this template</a>.
+              Thanks for the template from <a href="https://github.com/keunhong/keunhong.github.io">Keunhong Park</a>.
             </p>
           </div>
         </div>

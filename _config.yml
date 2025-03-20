@@ -18,23 +18,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Keunhong Park
-name: Keunhong Park
-position: Research Scientist 
-email: dp9jalxhq@mozmail.com
+title: Derong Jin
+name: Derong Jin
+name_cn: 金德容
+position: Master's Student
+email: djin77@umd.edu
 description: >-
-  I am a researcher in 3D computer vision and generative AI. I currently co-lead the development of spatial intelligence at [World Labs](https://www.worldlabs.ai/blog).
-  I was previously a research scientist at [Google](https://ai.google/research/) where I built technology to [generate 3D assets](https://blog.google/products/shopping/search-on-2022-shopping/) for products on Google Search.
+  I am a first year Master's student in [Computer Science](https://www.cs.umd.edu/) at [University of Maryland, College Park](https://umd.edu/), advised by [Prof. Ruohan Gao](https://www.cs.umd.edu/people/rhgao). 
 
-  I received my Ph.D from the [University of Washington](https://grail.cs.washington.edu/) in 2021 where I was advised by
-  [Ali Farhadi](https://homes.cs.washington.edu/~ali/) and
-  [Steve Seitz](https://homes.cs.washington.edu/~seitz/).
+  My research interests lie in the intersection of <b>computer vision and machine learning</b>, with a focus on <b>multi-modal 3D reconstruction</b>. 
+
+  <br/>
+
+  I received my B.Eng. in Computer Science and Engineering from [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en/) in 2024, where I was advised by [Prof. Xiaoguang Han](https://gaplab.cuhk.edu.cn/pages/people).
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://keunhong.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: KeunhongP
-github_username: keunhong
-google_scholar: HVZb-5oAAAAJ
-google_analytics: G-MFWSBLRKG0
+url: "https://HuMathe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: DerongJin
+github_username: HuMathe
+google_scholar: p6UM7skAAAAJ
+google_analytics: GTM-WJ8X46LN
 
 # Build settings
 theme: minima
@@ -43,6 +45,14 @@ plugins:
 
 sass:
   style: compact
+
+
+# I am a researcher in 3D computer vision and generative AI. I currently co-lead the development of spatial intelligence at [World Labs](https://www.worldlabs.ai/blog).
+# I was previously a research scientist at [Google](https://ai.google/research/) where I built technology to [generate 3D assets](https://blog.google/products/shopping/search-on-2022-shopping/) for products on Google Search.
+
+# I received my Ph.D from the [University of Washington](https://grail.cs.washington.edu/) in 2021 where I was advised by
+# [Ali Farhadi](https://homes.cs.washington.edu/~ali/) and
+# [Steve Seitz](https://homes.cs.washington.edu/~seitz/).
 
 # Exclude from processing.
 # The following items will not be processed, by default.

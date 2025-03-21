@@ -188,7 +188,7 @@ layout: null
       {% for award in site.data.awards %}
       <div class="columns">
         <div class="column is-four-fifths">
-          <b>{{ award.name }}</b>
+          <b>{{ award.name }}</b>{% if award.percentage %} ({{ award.percentage }}){% endif %}
         </div>
         <div class="column is-one-fifths has-text-right">
           {{ award.date }}

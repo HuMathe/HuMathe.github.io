@@ -1,13 +1,13 @@
 
-- id: avdar
-  title: "Differentiable Room Acoustic Rendering with Multi-View Vision Priors"
-  project_page: 'avdar'
-  description: "The first physics-based, audio-visual differentiable acoustic renderer that uses multi-view images and beam tracing to reconstruct room impulse responses (RIRs) efficiently and accurately from sparse real-world measurements."
-  image: avdar_before.png
-  authors:
-    - derong
-    - ruohan
-  venue: In Submission, 2025
+# - id: avdar
+#   title: "Differentiable Room Acoustic Rendering with Multi-View Vision Priors"
+#   project_page: 'avdar'
+#   description: "The first physics-based, audio-visual differentiable acoustic renderer that uses multi-view images and beam tracing to reconstruct room impulse responses (RIRs) efficiently and accurately from sparse real-world measurements."
+#   image: avdar_before.png
+#   authors:
+#     - derong
+#     - ruohan
+#   venue: In Submission, 2025
 
 
 - id: HMNeRFBench

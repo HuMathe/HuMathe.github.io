@@ -127,7 +127,7 @@
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        <source src="static/videos/0323.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
@@ -156,67 +156,101 @@
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
+<!-- Method Pipeline-->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+      <h2 class="title is-3">Method Pipeline</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <figure class="image">
+            <img src="static/images/pipeline.png" alt="Method Pipeline">
+            <h2 class="subtitle has-text-justified">
+              In the <b>top row</b>, we extract material-aware <span style="color:cornflowerblue">surface features</span> from multi-view images, 
+              guiding reflection modeling. In the bottom row, we first compute the <span style="color:brown">reflection response</span> by combining <span style="color:cornflowerblue">surface features</span> with beam tracing (<b>left</b>), 
+              and then integrate <span style="color: brown">residual components</span> by treating each surface point as a secondary source (<b>right</b>). The entire pipeline is differentiable, enabling 
+              end-to-end optimization.
+              <!-- Our method realistically simulates room acoustics by integrating visual analysis and acoustic modeling. We first process multi-view images to extract visual features that capture material and surface properties. These visual insights guide acoustic simulations, accurately modeling sound reflections and complex reverberation effects. The entire pipeline is differentiable, allowing end-to-end optimization for enhanced acoustic realism. -->
+              <!-- Our framework contains two main components for rendering the room impulse response (RIR): <b>(1) Visual Processing (top):</b> Multi-view images of the scene are passed through a pre-trained vision encoder
+              to extract pixel-aligned features at sampled points on the room surface. We then apply cross-attention both across views for each sampled point and across sampled points of query x
+              to obtain a unified, material-aware visual feature $\mathrm{F}(\mathbf{x})$ (detailed in Section~\ref{sec:vision}). \textbf{(2) Acoustic Processing (bottom):} On the left, we illustrate our acoustic beam tracing procedure (Section~\ref{sec:beamtracing}), where we sample specular paths and compute the path reflection response, conditioned on both the positional encoding (Section~\ref{sec:mip-rr}) and the visual feature $\mathrm{F}({\bf x})$. On the right, we show how we model the residual acoustic field (Section~\ref{sec:residual}) by treating every point on the surface as a secondary sound source and integrating its contribution via Monte-Carlo integration. The entire pipeline is fully differentiable, enabling end-to-end optimization of both acoustic and visual parameters. -->
+              <!-- <math>aa</math> -->
+            </h2>
+          </figure>
+        </div>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+<!-- End method -->
+
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Qualitative Results</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <figure class="image">
+            <img src="static/images/SignalComp.png" alt="SignalDistVisualization">
+            <h2 class="subtitle has-text-justified">
+              In the <b>top row</b>, we extract material-aware <span style="color:cornflowerblue">surface features</span> from multi-view images, 
+              guiding reflection modeling. In the bottom row, we first compute the <span style="color:brown">reflection response</span> by combining <span style="color:cornflowerblue">surface features</span> with beam tracing (<b>left</b>), 
+              and then integrate <span style="color: brown">residual components</span> by treating each surface point as a secondary source (<b>right</b>). The entire pipeline is differentiable, enabling 
+              end-to-end optimization.
+              <!-- Our method realistically simulates room acoustics by integrating visual analysis and acoustic modeling. We first process multi-view images to extract visual features that capture material and surface properties. These visual insights guide acoustic simulations, accurately modeling sound reflections and complex reverberation effects. The entire pipeline is differentiable, allowing end-to-end optimization for enhanced acoustic realism. -->
+              <!-- Our framework contains two main components for rendering the room impulse response (RIR): <b>(1) Visual Processing (top):</b> Multi-view images of the scene are passed through a pre-trained vision encoder
+              to extract pixel-aligned features at sampled points on the room surface. We then apply cross-attention both across views for each sampled point and across sampled points of query x
+              to obtain a unified, material-aware visual feature $\mathrm{F}(\mathbf{x})$ (detailed in Section~\ref{sec:vision}). \textbf{(2) Acoustic Processing (bottom):} On the left, we illustrate our acoustic beam tracing procedure (Section~\ref{sec:beamtracing}), where we sample specular paths and compute the path reflection response, conditioned on both the positional encoding (Section~\ref{sec:mip-rr}) and the visual feature $\mathrm{F}({\bf x})$. On the right, we show how we model the residual acoustic field (Section~\ref{sec:residual}) by treating every point on the surface as a secondary sound source and integrating its contribution via Monte-Carlo integration. The entire pipeline is fully differentiable, enabling end-to-end optimization of both acoustic and visual parameters. -->
+              <!-- <math>aa</math> -->
+            </h2>
+          </figure>
+        </div>
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <figure class="image">
+            <img src="static/images/reflection.png" alt="ReflectionResponseVisualization">
+            <h2 class="subtitle has-text-justified">
+              In the <b>top row</b>, we extract material-aware <span style="color:cornflowerblue">surface features</span> from multi-view images, 
+              guiding reflection modeling. In the bottom row, we first compute the <span style="color:brown">reflection response</span> by combining <span style="color:cornflowerblue">surface features</span> with beam tracing (<b>left</b>), 
+              and then integrate <span style="color: brown">residual components</span> by treating each surface point as a secondary source (<b>right</b>). The entire pipeline is differentiable, enabling 
+              end-to-end optimization.
+              <!-- Our method realistically simulates room acoustics by integrating visual analysis and acoustic modeling. We first process multi-view images to extract visual features that capture material and surface properties. These visual insights guide acoustic simulations, accurately modeling sound reflections and complex reverberation effects. The entire pipeline is differentiable, allowing end-to-end optimization for enhanced acoustic realism. -->
+              <!-- Our framework contains two main components for rendering the room impulse response (RIR): <b>(1) Visual Processing (top):</b> Multi-view images of the scene are passed through a pre-trained vision encoder
+              to extract pixel-aligned features at sampled points on the room surface. We then apply cross-attention both across views for each sampled point and across sampled points of query x
+              to obtain a unified, material-aware visual feature $\mathrm{F}(\mathbf{x})$ (detailed in Section~\ref{sec:vision}). \textbf{(2) Acoustic Processing (bottom):} On the left, we illustrate our acoustic beam tracing procedure (Section~\ref{sec:beamtracing}), where we sample specular paths and compute the path reflection response, conditioned on both the positional encoding (Section~\ref{sec:mip-rr}) and the visual feature $\mathrm{F}({\bf x})$. On the right, we show how we model the residual acoustic field (Section~\ref{sec:residual}) by treating every point on the surface as a secondary sound source and integrating its contribution via Monte-Carlo integration. The entire pipeline is fully differentiable, enabling end-to-end optimization of both acoustic and visual parameters. -->
+              <!-- <math>aa</math> -->
+            </h2>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
 
 <!-- Youtube video -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
+      <!- - Paper video. - ->
       <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
           <div class="publication-video">
-            <!-- Youtube embed code here -->
+            <!- - Youtube embed code here - ->
             <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End youtube video -->
 
 
@@ -224,7 +258,7 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
+      <h2 class="title is-3">Demo Videos</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">

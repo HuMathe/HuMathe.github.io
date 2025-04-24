@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>AV-DAR</title>
+  <link rel="icon" type="image/x-icon" href="static/images/icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="static/css/idemo.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  
+  <!-- Three.js from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.123.0/examples/js/loaders/OBJLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.123.0/examples/js/loaders/MTLLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.123.0/examples/js/controls/OrbitControls.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js library -->
+  
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+
+  
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Differentiable Room Acoustic Rendering with Multi-View Vision Priors</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://humathe.github.io/" target="_blank">Derong Jin</a>,</span>
+                  <span class="author-block">
+                    <a href="https://ruohangao.github.io" target="_blank">Ruohan Gao</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">University of Maryland, College Park<br>Arxiv 2025</span>
+                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <!-- Github link -->
+               <span class="link-block">
+                <!-- <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                class="external-link button is-normal is-rounded is-dark"> -->
+                <a target="_blank"
+                class="external-link button is-normal is-rounded is-light">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Code</span>
+              </a>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="video-01" controls height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/teaser_fast.mp4" type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Binaural audio tour rendered by AV-DAR across 6 real scenes. Trained on 1% (RAF) / 12 (HAA) IRs. Headphones are strongly recommended.
+        <!-- Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.  -->
+      </h2>
+      <h3 class="has-text-centered">
+        Sound Source: <a href="https://pixabay.com/music/build-up-scenes-percussive-drums-131490/" target="_blank">DayNightMorning</a>
+      </h3>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            <!-- Source:  -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit. -->
+            An immersive acoustic experience enabled by spatial audio is just as crucial as the visual aspect in creating realistic virtual environments. 
+            However, existing methods for room impulse response estimation rely either on data-demanding learning-based models or computationally expensive physics-based modeling. 
+            In this work, we introduce <b>Audio-Visual Differentiable Room Acoustic Rendering (AV-DAR)</b>, a framework that leverages visual cues extracted from multi-view images and acoustic beam tracing for physics-based room acoustic rendering. Experiments across six real-world environments from two datasets demonstrate that our multimodal, physics-based approach is efficient, interpretable, and accurate, significantly outperforming a series of prior methods. Notably, on the Real Acoustic Field dataset, AV-DAR achieves comparable performance to models trained on 10 times more data while delivering relative gains ranging from <b>16.6%</b> to <b>50.9%</b> when trained at the same scale.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Method Pipeline-->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Method Pipeline</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <figure class="image">
+            <img src="static/images/pipeline.png" alt="Method Pipeline">
+            <h2 class="subtitle has-text-justified">
+              In the <b>top row</b>, we extract material-aware <span style="color:cornflowerblue">surface features</span> from multi-view images, 
+              guiding reflection modeling. In the bottom row, we first compute the <span style="color:brown">reflection response</span> by combining <span style="color:cornflowerblue">surface features</span> with beam tracing (<b>left</b>), 
+              and then integrate <span style="color: brown">residual components</span> by treating each surface point as a secondary source (<b>right</b>). The entire pipeline is differentiable, enabling 
+              end-to-end optimization.
+              <!-- Our method realistically simulates room acoustics by integrating visual analysis and acoustic modeling. We first process multi-view images to extract visual features that capture material and surface properties. These visual insights guide acoustic simulations, accurately modeling sound reflections and complex reverberation effects. The entire pipeline is differentiable, allowing end-to-end optimization for enhanced acoustic realism. -->
+              <!-- Our framework contains two main components for rendering the room impulse response (RIR): <b>(1) Visual Processing (top):</b> Multi-view images of the scene are passed through a pre-trained vision encoder
+              to extract pixel-aligned features at sampled points on the room surface. We then apply cross-attention both across views for each sampled point and across sampled points of query x
+              to obtain a unified, material-aware visual feature $\mathrm{F}(\mathbf{x})$ (detailed in Section~\ref{sec:vision}). \textbf{(2) Acoustic Processing (bottom):} On the left, we illustrate our acoustic beam tracing procedure (Section~\ref{sec:beamtracing}), where we sample specular paths and compute the path reflection response, conditioned on both the positional encoding (Section~\ref{sec:mip-rr}) and the visual feature $\mathrm{F}({\bf x})$. On the right, we show how we model the residual acoustic field (Section~\ref{sec:residual}) by treating every point on the surface as a secondary sound source and integrating its contribution via Monte-Carlo integration. The entire pipeline is fully differentiable, enabling end-to-end optimization of both acoustic and visual parameters. -->
+              <!-- <math>aa</math> -->
+            </h2>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End method -->
+
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Qualitative Results</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <figure class="image">
+            <img src="static/images/SignalComp.png" alt="SignalDistVisualization">
+            <h2 class="subtitle has-text-justified">
+              Signal spatial distribution visualization. <b>Top two rows:</b> Phase and amplitude maps at 0.6m wavelength. <b>Bottom row:</b> Loudness heatmap. Our model, trained on only 0.1% of the data, accurately captures source directivity and localization, yielding plausible phase and amplitude distributions, while baseline methods fail to reproduce these patterns even with 10× training data.
+              <!-- Our method realistically simulates room acoustics by integrating visual analysis and acoustic modeling. We first process multi-view images to extract visual features that capture material and surface properties. These visual insights guide acoustic simulations, accurately modeling sound reflections and complex reverberation effects. The entire pipeline is differentiable, allowing end-to-end optimization for enhanced acoustic realism. -->
+              <!-- Our framework contains two main components for rendering the room impulse response (RIR): <b>(1) Visual Processing (top):</b> Multi-view images of the scene are passed through a pre-trained vision encoder
+              to extract pixel-aligned features at sampled points on the room surface. We then apply cross-attention both across views for each sampled point and across sampled points of query x
+              to obtain a unified, material-aware visual feature $\mathrm{F}(\mathbf{x})$ (detailed in Section~\ref{sec:vision}). \textbf{(2) Acoustic Processing (bottom):} On the left, we illustrate our acoustic beam tracing procedure (Section~\ref{sec:beamtracing}), where we sample specular paths and compute the path reflection response, conditioned on both the positional encoding (Section~\ref{sec:mip-rr}) and the visual feature $\mathrm{F}({\bf x})$. On the right, we show how we model the residual acoustic field (Section~\ref{sec:residual}) by treating every point on the surface as a secondary sound source and integrating its contribution via Monte-Carlo integration. The entire pipeline is fully differentiable, enabling end-to-end optimization of both acoustic and visual parameters. -->
+              <!-- <math>aa</math> -->
+            </h2>
+          </figure>
+        </div>
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <figure class="image">
+            <!-- <img src="static/images/reflection.png" alt="ReflectionResponseVisualization"> -->
+            <img src="static/images/reflection-1.png" alt="ReflectionResponseVisualization">
+            <h2 class="subtitle has-text-justified">
+              Reflection response visualization. The RGB color encodes frequency-dependent reflection response, with <span style="color:red">red</span> indicating <span style="color:red">high-frequency</span> and <span style="color:blue">blue</span> indicating <span style="color:blue">low-frequency</span>. Our method yields diverse, interpretable reflection patterns even with only 0.1% training data. In the middle, we visualize the reflection response curves. The results align with real-world observations 
+              -- e.g.,  <span style="color:red"><b>carpet</b></span> exhibits low high-frequency reflectivity, 
+              <span style="color:orange"><b>foam</b></span> is generally absorptive, 
+              and <span style="color:limegreen"><b>metal</b></span> reflects strongly at high frequencies.
+              <!-- Our method realistically simulates room acoustics by integrating visual analysis and acoustic modeling. We first process multi-view images to extract visual features that capture material and surface properties. These visual insights guide acoustic simulations, accurately modeling sound reflections and complex reverberation effects. The entire pipeline is differentiable, allowing end-to-end optimization for enhanced acoustic realism. -->
+              <!-- Our framework contains two main components for rendering the room impulse response (RIR): <b>(1) Visual Processing (top):</b> Multi-view images of the scene are passed through a pre-trained vision encoder
+              to extract pixel-aligned features at sampled points on the room surface. We then apply cross-attention both across views for each sampled point and across sampled points of query x
+              to obtain a unified, material-aware visual feature $\mathrm{F}(\mathbf{x})$ (detailed in Section~\ref{sec:vision}). \textbf{(2) Acoustic Processing (bottom):} On the left, we illustrate our acoustic beam tracing procedure (Section~\ref{sec:beamtracing}), where we sample specular paths and compute the path reflection response, conditioned on both the positional encoding (Section~\ref{sec:mip-rr}) and the visual feature $\mathrm{F}({\bf x})$. On the right, we show how we model the residual acoustic field (Section~\ref{sec:residual}) by treating every point on the surface as a secondary sound source and integrating its contribution via Monte-Carlo integration. The entire pipeline is fully differentiable, enabling end-to-end optimization of both acoustic and visual parameters. -->
+              <!-- <math>aa</math> -->
+            </h2>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!- - Paper video. - ->
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!- - Youtube embed code here - ->
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Interactive Demo</h2>
+      <div class="columns is-centered has-text-centered">
+        <!-- <div class="column is-four-fifths"> -->
+          
+          <div id="idemo"></div>
+          <div id="menu">
+            <button id="mtl0">Texture</button>
+            <button id="mtl1">Reflectance @ 100%</button>
+            <button id="mtl2">Reflectance @ 0.01%</button>
+            <button id="mtl3">No Vision @ 100%</button>
+          </div>
+          <div class="idemo-panel">
+            <!-- <img id="idemoImage" src="" alt=""> -->
+            <div id="chartContainer">
+              <canvas id="chartCanvas"></canvas>
+            </div>
+          <!-- </div> -->
+        </div>
+      </div>
+      <!-- <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <!- - Your video file here - ->
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!- - Your video file here - ->
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <!- - Your video file here - ->
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+    <script src="static/js/interactive-demo.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,2102 @@
+[
+    {
+        "position": [
+            -1.1917329453080499,
+            0.06825883491035376,
+            0.9043603342513944
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.78497311402229,
+            0.8398880832320388,
+            -4.34102105512108
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.6644763365311874,
+            0.11061280881036017,
+            -2.941213435948315
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                2,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                2,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.407335970148295,
+            0.15983025688443842,
+            -3.5986214905577922
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                3,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                3,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            0.9780253575338106,
+            2.1312511592711254,
+            -4.738999865821458
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                4,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                4,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            1.820471028822204,
+            2.221386096330741,
+            -4.726424491983752
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                5,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                5,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                5,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                5,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -2.821028372290413,
+            2.2925556347044833,
+            -4.623595112012958
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                6,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                6,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                6,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                6,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -1.6580005445689405,
+            2.653835456945457,
+            -3.5700280559451842
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                7,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                7,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                7,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                7,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -2.825789764441497,
+            2.6401573770448667,
+            -3.3807895271271184
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                8,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                8,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            0.04126538598950162,
+            1.3769198493848778,
+            2.5146688019197754
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                9,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                9,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                9,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                9,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -0.22821960505660727,
+            0.730830016348839,
+            2.307358043823518
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                10,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                10,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                10,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                10,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -1.983288646411819,
+            0.08407847365719322,
+            -3.6755092335789117
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                11,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                11,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                11,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                11,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.0868855407605533,
+            0.0707379750438566,
+            2.036095966274611
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                12,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                12,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                12,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                12,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -0.5153415665545851,
+            0.09039137141290073,
+            -1.482662685908275
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                13,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                13,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                13,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                13,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -0.8578631329277375,
+            0.14642519543501248,
+            -3.1530752190382447
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                14,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                14,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                14,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                14,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -0.8066753239654294,
+            0.5047666189206107,
+            2.107452439159503
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                15,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                15,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                15,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                15,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            0.02923963181342285,
+            2.577652950250874,
+            0.4455770627408969
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                16,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                16,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            2.2906735183120936,
+            1.98933152459417,
+            -2.65207697737508
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                17,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                17,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                17,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                17,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            1.3382222944440603,
+            2.6673881510620228,
+            -2.3413712722122684
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                18,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                18,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                18,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                18,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -0.5483443496317841,
+            0.21161358499017288,
+            -2.276737607825333
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                19,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                19,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                19,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                19,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -0.5446175102607596,
+            3.9520923362529827,
+            3.5981041602637585
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                20,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                20,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                20,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                20,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            0.3272205141911282,
+            2.6831309766030214,
+            3.2884222678527704
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                21,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                21,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                21,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                21,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -0.6642192598488204,
+            0.18185612882817526,
+            3.857997015689395
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                22,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                22,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                22,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                22,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -0.742454987603445,
+            0.7012027528884325,
+            3.6538183002845077
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                23,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                23,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                23,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                23,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -1.6377515839976398,
+            0.09236207958386286,
+            -2.3830044880152745
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                24,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                24,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                24,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                24,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.5540155375288016,
+            2.4474015317667144,
+            1.942929642944296
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                25,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                25,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                25,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                25,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -1.1131895807295489,
+            3.93276417380184,
+            2.2824030443913728
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                26,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                26,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                26,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                26,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.7479686826839256,
+            2.238200973067484,
+            1.531703751878167
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                27,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                27,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                27,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                27,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -2.1616060713028804,
+            2.860533892860504,
+            2.1027059410506386
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                28,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                28,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                28,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                28,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.0839172011464875,
+            2.992041348433895,
+            3.94765133533001
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                29,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                29,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                29,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                29,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -1.5626369710852372,
+            3.9939252919207164,
+            3.1104832321057407
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                30,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                30,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                30,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                30,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.5422576844951377,
+            2.1386365790704285,
+            3.962303198458688
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                31,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                31,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                31,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                31,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -0.8012590411308937,
+            1.3820144387321804,
+            -4.230312957129651
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                32,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                32,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                32,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                32,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.689004140041318,
+            2.2405680670215076,
+            -0.5054407163628397
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                33,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                33,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                33,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                33,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.8279376221145887,
+            2.0078682302321287,
+            0.47127418393564424
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                34,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                34,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                34,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                34,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -2.1452004125770907,
+            2.6283281072963343,
+            1.174685861362538
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                35,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                35,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                35,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                35,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.3428428451132493,
+            2.625483129312963,
+            1.195323887947882
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                36,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                36,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                36,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                36,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.0374191066091276,
+            0.1354543823674141,
+            3.9394023302584418
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                37,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                37,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                37,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                37,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.826031794209597,
+            1.5778301580953231,
+            -0.1569418026026193
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                38,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                38,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                38,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                38,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -3.359109418668072,
+            0.48551907830726454,
+            -2.527817184828228
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                39,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                39,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                39,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                39,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -1.5175062891882782,
+            1.164094470059179,
+            1.761221902385373
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                40,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                40,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                40,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                40,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -0.8190999781077892,
+            1.600691878269032,
+            -2.592463066238049
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                41,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                41,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                41,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                41,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -0.40957790430830104,
+            0.9006209711939519,
+            -3.618174631373316
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                42,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                42,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                42,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                42,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -1.7970714308593774,
+            0.29761990791262827,
+            -4.769555592002394
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                43,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                43,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                43,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                43,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            1.1157270744562586,
+            0.07903571745602347,
+            -0.6249394423647349
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                44,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                44,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                44,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                44,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            -0.5104432493442963,
+            1.1887621704640536,
+            1.2975783357057127
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                45,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                45,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                45,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                45,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            2.3818637710060413,
+            0.9271316771543825,
+            -0.29915479767859743
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                46,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                46,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                46,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                46,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            1.8034517307012743,
+            0.31277255500196605,
+            -3.003602167084013
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                47,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                47,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                47,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                47,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            2.123701637222635,
+            1.0345260711465294,
+            -4.55801387254246
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                48,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                48,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                48,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                48,
+                0,
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "position": [
+            0.8049778156257291,
+            0.707149337768322,
+            -4.7467852464194875
+        ],
+        "photoURL": "https://picsum.photos/200",
+        "data": {
+            "static/objects/mesh.mtl": [
+                49,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh1.mtl": [
+                49,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh0.01.mtl": [
+                0,
+                49,
+                0,
+                0,
+                0,
+                0
+            ],
+            "static/objects/mesh_nov.mtl": [
+                0,
+                0,
+                49,
+                0,
+                0,
+                0
+            ]
+        }
+    }
+]

@@ -135,3 +135,136 @@ body {
 
 
 
+
+
+.demo-instructions {
+  /* override any parent centering */
+  text-align: left !important;
+  margin-bottom: 1.5rem;
+}
+
+/* make sure headings, paragraphs and list items also align left */
+.demo-instructions h3,
+.demo-instructions p,
+.demo-instructions ol,
+.demo-instructions ul,
+.demo-instructions li {
+  text-align: left;
+}
+
+/* indent nested lists for clarity */
+.demo-instructions ol,
+.demo-instructions ul {
+  padding-left: 1.25rem;
+}
+
+.demo-instructions p {
+  margin-bottom: 0.5rem;
+}
+
+.demo-instructions table.demo-controls-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.demo-instructions table.demo-controls-table th,
+.demo-instructions table.demo-controls-table td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.demo-instructions table.demo-controls-table th {
+  font-weight: 600;
+  background-color: #f9f9f9;
+}
+
+.raf-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-family: sans-serif;
+}
+.raf-table th,
+.raf-table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+}
+.raf-table th {
+  background: #f7f7f7;
+  font-weight: bold;
+}
+.raf-table .highlight-secondary {
+  background-color: #FFFACD; /* lemonchiffon */
+}
+.raf-table .highlight-primary {
+  background-color: #A8E4A0; /* granny smith apple */
+}
+.raf-table caption {
+  caption-side: bottom;
+  text-align: left;
+  font-size: 1.0rem;
+  margin-top: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
+.read-more-btn {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.demo-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+.demo-table th,
+.demo-table td {
+  /* border: 1px solid #ddd; */
+  padding: 0.5em;
+}
+.demo-table th {
+  /* background: #f5f5f5; */
+  font-weight: normal;
+}
+.demo-table img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.demo-table .layout-cell img {
+  /* make the layout image a bit larger */
+  max-height: 300px;
+}
+.compact-table {
+  /* make the table only as wide as its contents */
+  display: inline-table;
+  margin: 0 auto;               
+  border-collapse: collapse;    
+  table-layout: auto;           
+}
+
+.compact-table td {
+  padding: 0.25rem 0.5rem;      
+  text-align: center;           
+  vertical-align: middle;
+  white-space: nowrap;          /* prevent cells from expanding */
+}
+
+.compact-media {
+  /* let the media shrink to its intrinsic size, up to these limits */
+  width: auto !important;
+  max-width: 200px;             /* or whatever makes sense for you */
+  display: inline-block;
+}
+
+/* If you want the layout image slightly smaller: */
+.layout-thumb {
+  max-width: 200px;
+}

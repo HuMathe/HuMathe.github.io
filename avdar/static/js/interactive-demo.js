@@ -1,16 +1,17 @@
 let scene, camera, renderer;
 let raycaster, mouse;
-let chart;
+let chart_ours, chart_wo_vision;
 let width, height;
 let selected = null;
 let selectedMtlFile = null;
 let currentObject = null;
-const MAXWINSIZE = 800;
+const MAXWINSIZE = 500;
 
 const unselectedColor = 0xff0000;
 const selectedColor = 0x00ff00;
 
 let markers = [];
+const labels = ['16', '31', '47', '70', '102', '156', '242', '375', '570', '875', '1352', '2070', '3180', '4891', '7508'];
 
 init();
 animate();
@@ -20,6 +21,7 @@ function loadModel(mtlFile, objFile) {
     if (currentObject) {
         scene.remove(currentObject);
     }
+    
     selectedMtlFile = mtlFile;
     const mtlLoader = new THREE.MTLLoader();
     mtlLoader.load(mtlFile, (materials) => {
@@ -41,14 +43,6 @@ function loadModel(mtlFile, objFile) {
             }
         );
     });
-
-    if (selected) {
-        const index = selected.userData.index;
-        const marker = markers[index];
-        const uniqueURL = marker.photoURL + '?_=' + Date.now();
-        document.getElementById('idemoImage').src = uniqueURL;
-        updateChart(marker.data[selectedMtlFile]);
-    }
 }
 
 function loadMarkersFromFile() {
@@ -105,34 +99,20 @@ function init() {
     loadModel('static/objects/mesh.mtl', 'static/objects/mesh.obj');
 
     document.getElementById('mtl0').addEventListener('click', () => loadModel('static/objects/mesh.mtl', 'static/objects/mesh.obj'));
-    document.getElementById('mtl1').addEventListener('click', () => loadModel('static/objects/mesh1.mtl', 'static/objects/mesh.obj'));
-    document.getElementById('mtl2').addEventListener('click', () => loadModel('static/objects/mesh0.01.mtl', 'static/objects/mesh.obj'));
-    document.getElementById('mtl3').addEventListener('click', () => loadModel('static/objects/mesh_nov.mtl', 'static/objects/mesh.obj'));
+    document.getElementById('mtl-vis').addEventListener('click', () => loadModel('static/objects/mesh_vis.mtl', 'static/objects/mesh.obj'));
+    document.getElementById('mtl-nov').addEventListener('click', () => loadModel('static/objects/mesh_nov.mtl', 'static/objects/mesh.obj'));
 
     loadMarkersFromFile();
 
     raycaster = new THREE.Raycaster();
     mouse = new THREE.Vector2();
 
-    const ctx = document.getElementById('chartCanvas').getContext('2d');
-    chart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: [0, 0, 0, 0],
-            datasets: [{
-                label: 'Marker Data',
-                data: [],
-                borderWidth: 2
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            scales: {
-                y: { beginAtZero: true }
-            }
-        }
-    });
+    const ctx_ours = document.getElementById('chartCanvasOurs').getContext('2d');
+    chart_ours = buildChart(ctx_ours)
+
+    const ctx_wo_vision = document.getElementById('chartCanvasWoVision').getContext('2d');
+    chart_wo_vision = buildChart(ctx_wo_vision)
+
 
     window.addEventListener('resize', onWindowResize, false);
     document.addEventListener('click', onMouseClick, false);
@@ -172,7 +152,8 @@ function onMouseClick(event) {
             
             // const uniqueURL = marker.photoURL + '?_=' + Date.now();
             // document.getElementById('idemoImage').src = uniqueURL;
-            updateChart(marker.data[selectedMtlFile]);
+            updateChart(marker.data['Ours'], chart_ours, 'Ours');
+            updateChart(marker.data['w/o Vision'], chart_wo_vision, 'w/o Vision');
             
             if (selected) {
                 selected.material.color.set(unselectedColor);
@@ -183,10 +164,54 @@ function onMouseClick(event) {
     }
 }
 
-function updateChart(data) {
+function updateChart(data, chart, name) {
     const labels = data.map((_, index) => index.toString());
 
     chart.data.labels = labels;
     chart.data.datasets[0].data = data;
+    chart.data.datasets[0].label = name;
+    chart.data.datasets[0].borderColor = name === 'Ours' ? 'rgb(54, 162, 235)' : 'rgb(255, 99, 132)';
+    chart.data.datasets[0].backgroundColor = name === 'Ours' ? 'rgba(54, 162, 235, 0.2)' : 'rgba(255, 99, 132, 0.2)';
+
+    const maxVal = data.length ? Math.max(...data) : 0;
+    chart.options.scales.y.max = maxVal < 1 ? 1 : maxVal;
+
     chart.update();
+}
+
+
+function buildChart(ctx) {
+    return new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: [0, 0, 0, 0],
+            datasets: [{
+                label: '',
+                data: [],
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Frequency (Hz)'
+                    },
+                    ticks: {
+                        autoSkip: true,
+                        callback: function(value, index) {
+                        // return index % 2 === 0
+                        //     ? this.getLabelForValue(value)
+                        //     : '';
+                        return labels[index];
+                        }
+                    }
+                },
+                y: { beginAtZero: true }
+            }
+        }
+    });
 }

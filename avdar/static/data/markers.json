@@ -1,2102 +1,1410 @@
 [
-    {
-        "position": [
-            -1.1917329453080499,
-            0.06825883491035376,
-            0.9043603342513944
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.78497311402229,
-            0.8398880832320388,
-            -4.34102105512108
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                1,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                1,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                1,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.6644763365311874,
-            0.11061280881036017,
-            -2.941213435948315
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                2,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                2,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                2,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                2,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.407335970148295,
-            0.15983025688443842,
-            -3.5986214905577922
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                3,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                3,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                3,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                3,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            0.9780253575338106,
-            2.1312511592711254,
-            -4.738999865821458
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                4,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                4,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                4,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                4,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            1.820471028822204,
-            2.221386096330741,
-            -4.726424491983752
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                5,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                5,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                5,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                5,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -2.821028372290413,
-            2.2925556347044833,
-            -4.623595112012958
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                6,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                6,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                6,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                6,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -1.6580005445689405,
-            2.653835456945457,
-            -3.5700280559451842
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                7,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                7,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                7,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                7,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -2.825789764441497,
-            2.6401573770448667,
-            -3.3807895271271184
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                8,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                8,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                8,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                8,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            0.04126538598950162,
-            1.3769198493848778,
-            2.5146688019197754
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                9,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                9,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                9,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                9,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -0.22821960505660727,
-            0.730830016348839,
-            2.307358043823518
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                10,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                10,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                10,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                10,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -1.983288646411819,
-            0.08407847365719322,
-            -3.6755092335789117
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                11,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                11,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                11,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                11,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.0868855407605533,
-            0.0707379750438566,
-            2.036095966274611
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                12,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                12,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                12,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                12,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -0.5153415665545851,
-            0.09039137141290073,
-            -1.482662685908275
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                13,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                13,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                13,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                13,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -0.8578631329277375,
-            0.14642519543501248,
-            -3.1530752190382447
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                14,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                14,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                14,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                14,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -0.8066753239654294,
-            0.5047666189206107,
-            2.107452439159503
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                15,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                15,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                15,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                15,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            0.02923963181342285,
-            2.577652950250874,
-            0.4455770627408969
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                16,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                16,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                16,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                16,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            2.2906735183120936,
-            1.98933152459417,
-            -2.65207697737508
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                17,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                17,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                17,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                17,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            1.3382222944440603,
-            2.6673881510620228,
-            -2.3413712722122684
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                18,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                18,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                18,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                18,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -0.5483443496317841,
-            0.21161358499017288,
-            -2.276737607825333
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                19,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                19,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                19,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                19,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -0.5446175102607596,
-            3.9520923362529827,
-            3.5981041602637585
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                20,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                20,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                20,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                20,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            0.3272205141911282,
-            2.6831309766030214,
-            3.2884222678527704
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                21,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                21,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                21,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                21,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -0.6642192598488204,
-            0.18185612882817526,
-            3.857997015689395
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                22,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                22,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                22,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                22,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -0.742454987603445,
-            0.7012027528884325,
-            3.6538183002845077
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                23,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                23,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                23,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                23,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -1.6377515839976398,
-            0.09236207958386286,
-            -2.3830044880152745
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                24,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                24,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                24,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                24,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.5540155375288016,
-            2.4474015317667144,
-            1.942929642944296
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                25,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                25,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                25,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                25,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -1.1131895807295489,
-            3.93276417380184,
-            2.2824030443913728
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                26,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                26,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                26,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                26,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.7479686826839256,
-            2.238200973067484,
-            1.531703751878167
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                27,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                27,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                27,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                27,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -2.1616060713028804,
-            2.860533892860504,
-            2.1027059410506386
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                28,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                28,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                28,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                28,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.0839172011464875,
-            2.992041348433895,
-            3.94765133533001
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                29,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                29,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                29,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                29,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -1.5626369710852372,
-            3.9939252919207164,
-            3.1104832321057407
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                30,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                30,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                30,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                30,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.5422576844951377,
-            2.1386365790704285,
-            3.962303198458688
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                31,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                31,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                31,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                31,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -0.8012590411308937,
-            1.3820144387321804,
-            -4.230312957129651
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                32,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                32,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                32,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                32,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.689004140041318,
-            2.2405680670215076,
-            -0.5054407163628397
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                33,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                33,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                33,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                33,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.8279376221145887,
-            2.0078682302321287,
-            0.47127418393564424
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                34,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                34,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                34,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                34,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -2.1452004125770907,
-            2.6283281072963343,
-            1.174685861362538
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                35,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                35,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                35,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                35,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.3428428451132493,
-            2.625483129312963,
-            1.195323887947882
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                36,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                36,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                36,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                36,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.0374191066091276,
-            0.1354543823674141,
-            3.9394023302584418
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                37,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                37,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                37,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                37,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.826031794209597,
-            1.5778301580953231,
-            -0.1569418026026193
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                38,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                38,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                38,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                38,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -3.359109418668072,
-            0.48551907830726454,
-            -2.527817184828228
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                39,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                39,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                39,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                39,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -1.5175062891882782,
-            1.164094470059179,
-            1.761221902385373
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                40,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                40,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                40,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                40,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -0.8190999781077892,
-            1.600691878269032,
-            -2.592463066238049
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                41,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                41,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                41,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                41,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -0.40957790430830104,
-            0.9006209711939519,
-            -3.618174631373316
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                42,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                42,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                42,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                42,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -1.7970714308593774,
-            0.29761990791262827,
-            -4.769555592002394
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                43,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                43,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                43,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                43,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            1.1157270744562586,
-            0.07903571745602347,
-            -0.6249394423647349
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                44,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                44,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                44,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                44,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            -0.5104432493442963,
-            1.1887621704640536,
-            1.2975783357057127
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                45,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                45,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                45,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                45,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            2.3818637710060413,
-            0.9271316771543825,
-            -0.29915479767859743
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                46,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                46,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                46,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                46,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            1.8034517307012743,
-            0.31277255500196605,
-            -3.003602167084013
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                47,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                47,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                47,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                47,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            2.123701637222635,
-            1.0345260711465294,
-            -4.55801387254246
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                48,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                48,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                48,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                48,
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    {
-        "position": [
-            0.8049778156257291,
-            0.707149337768322,
-            -4.7467852464194875
-        ],
-        "photoURL": "https://picsum.photos/200",
-        "data": {
-            "static/objects/mesh.mtl": [
-                49,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh1.mtl": [
-                49,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh0.01.mtl": [
-                0,
-                49,
-                0,
-                0,
-                0,
-                0
-            ],
-            "static/objects/mesh_nov.mtl": [
-                0,
-                0,
-                49,
-                0,
-                0,
-                0
-            ]
-        }
+  {
+    "position": [
+      0.23231275176749527,
+      0.07709934245794477,
+      -0.38337738413848316
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.6429030299186707,
+        0.02574152499437332,
+        0.008415965363383293,
+        0.0006439246353693306,
+        0.02135409787297249,
+        0.137510284781456,
+        0.14407053589820862,
+        0.21668405830860138,
+        0.11427024751901627,
+        0.20680470764636993,
+        0.09188330918550491,
+        0.12259882688522339,
+        0.10824931412935257,
+        0.006712937727570534,
+        0.0011071892222389579
+      ],
+      "w/o Vision": [
+        0.16504953801631927,
+        0.33424824476242065,
+        0.44737744331359863,
+        0.09040006250143051,
+        0.021304504945874214,
+        0.06823946535587311,
+        0.34211093187332153,
+        0.11163593083620071,
+        0.036131612956523895,
+        0.034143950790166855,
+        0.004333221819251776,
+        0.03463347256183624,
+        0.9295951128005981,
+        0.020057164132595062,
+        0.0035971507895737886
+      ]
     }
+  },
+  {
+    "position": [
+      -1.8318837962081977,
+      0.8070621422924226,
+      -4.7675521039483915
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.1418120265007019,
+        0.0680222436785698,
+        0.022454367950558662,
+        0.3567705452442169,
+        0.009126560762524605,
+        0.2993420958518982,
+        0.22536276280879974,
+        0.6606302857398987,
+        0.31288957595825195,
+        0.2718379497528076,
+        0.16796737909317017,
+        0.07289479672908783,
+        0.002844344126060605,
+        0.0017695381538942456,
+        0.03364602476358414
+      ],
+      "w/o Vision": [
+        0.1557413935661316,
+        0.23861245810985565,
+        0.16132964193820953,
+        0.15147943794727325,
+        0.24343091249465942,
+        0.35762420296669006,
+        0.7105587124824524,
+        0.3689422607421875,
+        0.40450599789619446,
+        0.568920910358429,
+        0.1854623407125473,
+        0.33033955097198486,
+        0.22869977355003357,
+        0.16311612725257874,
+        0.10072819888591766
+      ]
+    }
+  },
+  {
+    "position": [
+      -2.629912614967986,
+      0.09129691171724158,
+      -2.024724402989709
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.34452274441719055,
+        0.6505255699157715,
+        0.02253829501569271,
+        0.18952710926532745,
+        0.02721705101430416,
+        0.015994392335414886,
+        0.010926717892289162,
+        0.17189088463783264,
+        0.007977685891091824,
+        0.040701765567064285,
+        0.0021689021959900856,
+        0.017127705737948418,
+        0.021367637440562248,
+        2.3027405404718593e-05,
+        0.00019054135191254318
+      ],
+      "w/o Vision": [
+        0.19485987722873688,
+        0.20191214978694916,
+        0.32663241028785706,
+        0.15084610879421234,
+        0.03714335709810257,
+        0.050385043025016785,
+        0.23572638630867004,
+        0.05680138245224953,
+        0.020544487982988358,
+        0.04721221327781677,
+        0.005323030520230532,
+        0.0400264672935009,
+        0.962874710559845,
+        0.11646795272827148,
+        0.0051563810557127
+      ]
+    }
+  },
+  {
+    "position": [
+      -0.2595466709032747,
+      0.49181192987921485,
+      -3.319356781908156
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.21473278105258942,
+        0.17563650012016296,
+        0.022786835208535194,
+        0.01794380135834217,
+        0.035493724048137665,
+        0.3884919285774231,
+        0.09639035910367966,
+        0.38451385498046875,
+        0.11702385544776917,
+        0.381424218416214,
+        0.26114383339881897,
+        0.5096632838249207,
+        0.011675718240439892,
+        0.04723042994737625,
+        0.03971784934401512
+      ],
+      "w/o Vision": [
+        0.044263456016778946,
+        0.07266796380281448,
+        0.22210098803043365,
+        0.1851920634508133,
+        0.09230183809995651,
+        0.16868744790554047,
+        0.4511798322200775,
+        0.24247965216636658,
+        0.35022133588790894,
+        0.3656996488571167,
+        0.11416129022836685,
+        0.25715765357017517,
+        0.7671622037887573,
+        0.6045294404029846,
+        0.06258329749107361
+      ]
+    }
+  },
+  {
+    "position": [
+      -1.1144325147416076,
+      0.628233524705541,
+      -3.4186222041756666
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.583939254283905,
+        0.06408925354480743,
+        0.01123874168843031,
+        0.03268411383032799,
+        0.05604451894760132,
+        0.08138805627822876,
+        0.07235932350158691,
+        0.12586455047130585,
+        0.10854233801364899,
+        0.23093309998512268,
+        0.3111116290092468,
+        0.35219576954841614,
+        0.325359582901001,
+        0.04267628490924835,
+        0.04104313626885414
+      ],
+      "w/o Vision": [
+        0.02400961145758629,
+        0.08933611959218979,
+        0.3009505569934845,
+        0.12033922970294952,
+        0.060253508388996124,
+        0.12557919323444366,
+        0.45631223917007446,
+        0.26002368330955505,
+        0.18634776771068573,
+        0.3058505356311798,
+        0.05305825546383858,
+        0.4204064607620239,
+        0.7786081433296204,
+        0.7268654704093933,
+        0.0882464051246643
+      ]
+    }
+  },
+  {
+    "position": [
+      0.7861365617858261,
+      2.656702227740553,
+      -1.393927318358658
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.2348318248987198,
+        0.18785040080547333,
+        0.0066383956000208855,
+        0.020468052476644516,
+        0.013056791387498379,
+        0.21232084929943085,
+        0.5265322923660278,
+        0.4343879520893097,
+        0.6363531947135925,
+        0.1630852371454239,
+        0.11578879505395889,
+        0.1147116869688034,
+        0.060080938041210175,
+        0.0796322375535965,
+        0.02199721150100231
+      ],
+      "w/o Vision": [
+        0.20063813030719757,
+        0.14202025532722473,
+        0.2496771514415741,
+        0.2002069503068924,
+        0.06255420297384262,
+        0.324869304895401,
+        0.5387231111526489,
+        0.3542722761631012,
+        0.06162441894412041,
+        0.0972089022397995,
+        0.042201925069093704,
+        0.03854815289378166,
+        0.780781090259552,
+        0.23471909761428833,
+        0.047648604959249496
+      ]
+    }
+  },
+  {
+    "position": [
+      -0.8292100710867122,
+      0.400966557185875,
+      -2.2747371458797696
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.033750493079423904,
+        0.013194313272833824,
+        0.0030536185950040817,
+        0.03173547983169556,
+        0.051349639892578125,
+        0.10794057697057724,
+        0.1310720145702362,
+        0.1899334043264389,
+        0.19508735835552216,
+        0.21943140029907227,
+        0.058783773332834244,
+        0.13164417445659637,
+        0.04627414792776108,
+        0.010139759629964828,
+        0.0069158729165792465
+      ],
+      "w/o Vision": [
+        0.12355203926563263,
+        0.11764740198850632,
+        0.18179543316364288,
+        0.055173225700855255,
+        0.10471673309803009,
+        0.13976119458675385,
+        0.40971842408180237,
+        0.188676655292511,
+        0.06854405254125595,
+        0.085959292948246,
+        0.014625472947955132,
+        0.06668148189783096,
+        0.7620781660079956,
+        0.1409159004688263,
+        0.028286162763834
+      ]
+    }
+  },
+  {
+    "position": [
+      -3.4552465877072844,
+      1.544008261973423,
+      -2.2473258209320828
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.020175324752926826,
+        0.006776352412998676,
+        0.0004986288258805871,
+        0.11215509474277496,
+        0.10818333923816681,
+        0.020882124081254005,
+        0.03496122360229492,
+        0.018818289041519165,
+        0.20168867707252502,
+        0.042103130370378494,
+        0.06761851906776428,
+        0.3422536551952362,
+        0.5122029185295105,
+        0.0029943999834358692,
+        0.00896463356912136
+      ],
+      "w/o Vision": [
+        0.10968989878892899,
+        0.06114616245031357,
+        0.7056852579116821,
+        0.07521185278892517,
+        0.0219399556517601,
+        0.029193801805377007,
+        0.1946054995059967,
+        0.054927028715610504,
+        0.02674272656440735,
+        0.031376197934150696,
+        0.003944728523492813,
+        0.10013831406831741,
+        0.6648562550544739,
+        0.41573071479797363,
+        0.0194130577147007
+      ]
+    }
+  },
+  {
+    "position": [
+      -3.4356890287348456,
+      1.3628213185139244,
+      -2.5246345962196743
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.05192194879055023,
+        0.1866789162158966,
+        0.003898728173226118,
+        0.05323924496769905,
+        0.0752684473991394,
+        0.048759765923023224,
+        0.02539384365081787,
+        0.0376647487282753,
+        0.17476584017276764,
+        0.21244066953659058,
+        0.41705867648124695,
+        0.5166779160499573,
+        0.9807778596878052,
+        0.5766938924789429,
+        0.271065890789032
+      ],
+      "w/o Vision": [
+        0.03638174757361412,
+        0.06804324686527252,
+        0.3054754137992859,
+        0.049703605473041534,
+        0.03345634043216705,
+        0.061264924705028534,
+        0.17950038611888885,
+        0.08557621389627457,
+        0.0606280192732811,
+        0.07088255882263184,
+        0.009905979037284851,
+        0.09960729628801346,
+        0.8075588345527649,
+        0.362734854221344,
+        0.011818843893706799
+      ]
+    }
+  },
+  {
+    "position": [
+      -0.18462205800552645,
+      0.08609441396304494,
+      -1.2694872070734622
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.2150009125471115,
+        0.11189894378185272,
+        0.013902549631893635,
+        0.01436588540673256,
+        0.25098147988319397,
+        0.18643717467784882,
+        0.041830871254205704,
+        0.27214762568473816,
+        0.11161371320486069,
+        0.11668874323368073,
+        0.03811626881361008,
+        0.18913789093494415,
+        0.05617070570588112,
+        0.003457577433437109,
+        0.006161462981253862
+      ],
+      "w/o Vision": [
+        0.1376463770866394,
+        0.2198447436094284,
+        0.2143278419971466,
+        0.14336839318275452,
+        0.09826938807964325,
+        0.20828838646411896,
+        0.5292739272117615,
+        0.28397253155708313,
+        0.041279297322034836,
+        0.10751885175704956,
+        0.022627368569374084,
+        0.04857110232114792,
+        0.8872621655464172,
+        0.06668531149625778,
+        0.0467216856777668
+      ]
+    }
+  },
+  {
+    "position": [
+      -1.6283977323810381,
+      2.6417056139446005,
+      -0.5858384827749751
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.5604664087295532,
+        0.016719067469239235,
+        0.0008697074954397976,
+        0.061403799802064896,
+        0.012265652418136597,
+        0.2901717722415924,
+        0.13483111560344696,
+        0.17774605751037598,
+        0.12034833431243896,
+        0.02284058928489685,
+        0.01788531243801117,
+        0.04088066145777702,
+        0.06920547038316727,
+        0.01599925011396408,
+        0.013746289536356926
+      ],
+      "w/o Vision": [
+        0.07528413087129593,
+        0.2743837833404541,
+        0.18958619236946106,
+        0.1121440976858139,
+        0.04359563812613487,
+        0.07703903317451477,
+        0.5084396004676819,
+        0.2086993008852005,
+        0.018080005422234535,
+        0.04794076457619667,
+        0.004775675479322672,
+        0.03919278085231781,
+        0.9451987743377686,
+        0.06315848976373672,
+        0.00693329144269228
+      ]
+    }
+  },
+  {
+    "position": [
+      -2.2309129596499933,
+      1.096183689405919,
+      1.932056645982889
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.31702470779418945,
+        0.04148659110069275,
+        0.004024163354188204,
+        0.07247628271579742,
+        0.030893709510564804,
+        0.13686159253120422,
+        0.07024823874235153,
+        0.05663170665502548,
+        0.10634071379899979,
+        0.061932891607284546,
+        0.08657100051641464,
+        0.4306938052177429,
+        0.7149257063865662,
+        0.07602304965257645,
+        0.05487632378935814
+      ],
+      "w/o Vision": [
+        0.07824762165546417,
+        0.13417306542396545,
+        0.5581963062286377,
+        0.06677883863449097,
+        0.039333276450634,
+        0.02353026531636715,
+        0.13198424875736237,
+        0.06276575475931168,
+        0.157077819108963,
+        0.10060571879148483,
+        0.013926339335739613,
+        0.7053429484367371,
+        0.9849973917007446,
+        0.9257338643074036,
+        0.010402696207165718
+      ]
+    }
+  },
+  {
+    "position": [
+      -1.112335707429244,
+      1.3217041281992188,
+      1.8033111901755279
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.2896650731563568,
+        0.06429348140954971,
+        0.0179201140999794,
+        0.10379911959171295,
+        0.048365164548158646,
+        0.04857517406344414,
+        0.01292016264051199,
+        0.05019515007734299,
+        0.152504101395607,
+        0.09879449009895325,
+        0.206205353140831,
+        0.32193130254745483,
+        0.9731830358505249,
+        0.4632173776626587,
+        0.05363829433917999
+      ],
+      "w/o Vision": [
+        0.17235900461673737,
+        0.23103190958499908,
+        0.8318593502044678,
+        0.05105812847614288,
+        0.023937774822115898,
+        0.021685518324375153,
+        0.12647834420204163,
+        0.028639744967222214,
+        0.0471782386302948,
+        0.046729013323783875,
+        0.0015539370942860842,
+        0.22350148856639862,
+        0.9870628714561462,
+        0.5905277729034424,
+        0.0015157769666984677
+      ]
+    }
+  },
+  {
+    "position": [
+      -0.5097954015757163,
+      2.6522040107633025,
+      -3.2708927608226857
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.4173872172832489,
+        0.34464675188064575,
+        0.026003433391451836,
+        0.00999441184103489,
+        0.005994144361466169,
+        0.33442422747612,
+        0.05279689282178879,
+        0.22307007014751434,
+        0.10054772347211838,
+        0.06890880316495895,
+        0.05291668698191643,
+        0.1671578735113144,
+        0.0068250796757638454,
+        0.12098321318626404,
+        0.040012333542108536
+      ],
+      "w/o Vision": [
+        0.060550786554813385,
+        0.12651832401752472,
+        0.1238456666469574,
+        0.15903900563716888,
+        0.06128405034542084,
+        0.19970060884952545,
+        0.3726919889450073,
+        0.23018646240234375,
+        0.09423591196537018,
+        0.06505021452903748,
+        0.03783325478434563,
+        0.034806132316589355,
+        0.7888416051864624,
+        0.23723658919334412,
+        0.018821129575371742
+      ]
+    }
+  },
+  {
+    "position": [
+      -1.0645030733029541,
+      1.0488695566512347,
+      -2.2802893051321824
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.051088251173496246,
+        0.05476156994700432,
+        0.008051621727645397,
+        0.04544369876384735,
+        0.057651031762361526,
+        0.13569824397563934,
+        0.1296350657939911,
+        0.15069130063056946,
+        0.1412794142961502,
+        0.21381135284900665,
+        0.2641121745109558,
+        0.2077556699514389,
+        0.09841147065162659,
+        0.04230884090065956,
+        0.025785580277442932
+      ],
+      "w/o Vision": [
+        0.05449584499001503,
+        0.12142524868249893,
+        0.3218778073787689,
+        0.04548477753996849,
+        0.02923794649541378,
+        0.0643787607550621,
+        0.24611583352088928,
+        0.08837538212537766,
+        0.06704340875148773,
+        0.0686282142996788,
+        0.006522286683320999,
+        0.07652854174375534,
+        0.6199100017547607,
+        0.12354288250207901,
+        0.013422411866486073
+      ]
+    }
+  },
+  {
+    "position": [
+      -1.614253043904435,
+      2.642626041368149,
+      -0.9577357299277706
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.14194107055664062,
+        0.02313479408621788,
+        0.0016497587785124779,
+        0.28609707951545715,
+        0.01667444407939911,
+        0.4985720217227936,
+        0.41361528635025024,
+        0.24723964929580688,
+        0.09430547058582306,
+        0.008888469077646732,
+        0.004884098656475544,
+        0.06044586002826691,
+        0.12322113662958145,
+        0.012106196023523808,
+        0.007146705873310566
+      ],
+      "w/o Vision": [
+        0.06084568053483963,
+        0.19863788783550262,
+        0.19439511001110077,
+        0.06180045008659363,
+        0.020566018298268318,
+        0.05515765771269798,
+        0.39927515387535095,
+        0.16881032288074493,
+        0.010796034708619118,
+        0.020918741822242737,
+        0.0016860963078215718,
+        0.02135777287185192,
+        0.906764030456543,
+        0.04341467469930649,
+        0.0031878475565463305
+      ]
+    }
+  },
+  {
+    "position": [
+      -0.4872499725646787,
+      2.650178831994084,
+      -1.1553427395207114
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.20823919773101807,
+        0.1014966368675232,
+        0.003650569822639227,
+        0.01966501772403717,
+        0.04088073968887329,
+        0.6581599712371826,
+        0.23533222079277039,
+        0.36087390780448914,
+        0.18556320667266846,
+        0.03176479786634445,
+        0.03800635039806366,
+        0.09421215951442719,
+        0.029233841225504875,
+        0.005658241920173168,
+        0.007284007500857115
+      ],
+      "w/o Vision": [
+        0.06499767303466797,
+        0.10258757323026657,
+        0.20561912655830383,
+        0.2125440388917923,
+        0.06037404388189316,
+        0.22356382012367249,
+        0.413082480430603,
+        0.26252272725105286,
+        0.04952595382928848,
+        0.04504305124282837,
+        0.01868690736591816,
+        0.020602939650416374,
+        0.8326453566551208,
+        0.13199104368686676,
+        0.03184262290596962
+      ]
+    }
+  },
+  {
+    "position": [
+      -3.781543388827181,
+      2.0212980420616957,
+      -3.9125855734434674
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.3831457197666168,
+        0.7037786245346069,
+        0.30005961656570435,
+        0.24876214563846588,
+        0.07256840169429779,
+        0.10767853260040283,
+        0.07321619242429733,
+        0.19072437286376953,
+        0.5400426387786865,
+        0.2768682837486267,
+        0.24219606816768646,
+        0.47355177998542786,
+        0.28116145730018616,
+        0.0656486228108406,
+        0.2447684109210968
+      ],
+      "w/o Vision": [
+        0.190982386469841,
+        0.14082936942577362,
+        0.49450984597206116,
+        0.2899765372276306,
+        0.05584060028195381,
+        0.09107426553964615,
+        0.4654575288295746,
+        0.15552200376987457,
+        0.26529544591903687,
+        0.5100070834159851,
+        0.10404317826032639,
+        0.6477661728858948,
+        0.9195643663406372,
+        0.972987949848175,
+        0.09837403148412704
+      ]
+    }
+  },
+  {
+    "position": [
+      1.5088249493454706,
+      1.0487830148923898,
+      -4.73816374973158
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.0635913535952568,
+        0.24424733221530914,
+        0.015750616788864136,
+        0.2569044232368469,
+        0.3476216495037079,
+        0.2713037431240082,
+        0.3356689214706421,
+        0.22395028173923492,
+        0.2276017665863037,
+        0.2335473746061325,
+        0.10697668790817261,
+        0.21963989734649658,
+        0.015231911092996597,
+        0.0026770157273858786,
+        0.011304370127618313
+      ],
+      "w/o Vision": [
+        0.049801260232925415,
+        0.09995709359645844,
+        0.2430565059185028,
+        0.1634630411863327,
+        0.12995707988739014,
+        0.1729375123977661,
+        0.5151925086975098,
+        0.23496577143669128,
+        0.1783144623041153,
+        0.14055298268795013,
+        0.0734965056180954,
+        0.08767136931419373,
+        0.048444729298353195,
+        0.05518925562500954,
+        0.2623140215873718
+      ]
+    }
+  },
+  {
+    "position": [
+      -3.8234076432710027,
+      0.9769508783876817,
+      0.531626375395933
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.3658236563205719,
+        0.25541308522224426,
+        0.04473066329956055,
+        0.10795745998620987,
+        0.2445714771747589,
+        0.013348602689802647,
+        0.03331863507628441,
+        0.06485766917467117,
+        0.19617493450641632,
+        0.42648905515670776,
+        0.3806724548339844,
+        0.6685359477996826,
+        0.9552751183509827,
+        0.13802680373191833,
+        0.24914439022541046
+      ],
+      "w/o Vision": [
+        0.1556178778409958,
+        0.14351001381874084,
+        0.8034668564796448,
+        0.08679480105638504,
+        0.039985544979572296,
+        0.032962389290332794,
+        0.0958176776766777,
+        0.02741841971874237,
+        0.14203841984272003,
+        0.14515212178230286,
+        0.011508512310683727,
+        0.5537952780723572,
+        0.9419512152671814,
+        0.919106125831604,
+        0.0077652959153056145
+      ]
+    }
+  },
+  {
+    "position": [
+      -2.2309129596499933,
+      1.096183689405919,
+      1.932056645982889
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.31702470779418945,
+        0.04148659110069275,
+        0.004024163354188204,
+        0.07247628271579742,
+        0.030893709510564804,
+        0.13686159253120422,
+        0.07024823874235153,
+        0.05663170665502548,
+        0.10634071379899979,
+        0.061932891607284546,
+        0.08657100051641464,
+        0.4306938052177429,
+        0.7149257063865662,
+        0.07602304965257645,
+        0.05487632378935814
+      ],
+      "w/o Vision": [
+        0.07824762165546417,
+        0.13417306542396545,
+        0.5581963062286377,
+        0.06677883863449097,
+        0.039333276450634,
+        0.02353026531636715,
+        0.13198424875736237,
+        0.06276575475931168,
+        0.157077819108963,
+        0.10060571879148483,
+        0.013926339335739613,
+        0.7053429484367371,
+        0.9849973917007446,
+        0.9257338643074036,
+        0.010402696207165718
+      ]
+    }
+  },
+  {
+    "position": [
+      -1.3321998473949326,
+      1.8978410933088221,
+      2.1067733802633555
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.22566555440425873,
+        0.003702790942043066,
+        0.02752787619829178,
+        0.08427216857671738,
+        0.013974023051559925,
+        0.09300548583269119,
+        0.04674038663506508,
+        0.0356680266559124,
+        0.25442180037498474,
+        0.21017219126224518,
+        0.13764549791812897,
+        0.34835901856422424,
+        0.9008681774139404,
+        0.402497261762619,
+        0.06106788292527199
+      ],
+      "w/o Vision": [
+        0.8594129085540771,
+        0.3266263008117676,
+        0.9826608300209045,
+        0.07846302539110184,
+        0.05865469202399254,
+        0.028849048539996147,
+        0.11410421878099442,
+        0.0268886499106884,
+        0.0878472626209259,
+        0.22789998352527618,
+        0.00624898262321949,
+        0.82253497838974,
+        0.9905611872673035,
+        0.9322113990783691,
+        0.0018290439620614052
+      ]
+    }
+  },
+  {
+    "position": [
+      -1.5816912186742864,
+      1.482724908049213,
+      2.103319348426035
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.10676803439855576,
+        0.006575206760317087,
+        0.000611938419751823,
+        0.125496044754982,
+        0.0039687189273536205,
+        0.02196086384356022,
+        0.010133142583072186,
+        0.03037337027490139,
+        0.19847314059734344,
+        0.04696349799633026,
+        0.07332675158977509,
+        0.13096511363983154,
+        0.9146144986152649,
+        0.15699246525764465,
+        0.01985861547291279
+      ],
+      "w/o Vision": [
+        0.5083737969398499,
+        0.3727598786354065,
+        0.9346291422843933,
+        0.05802091956138611,
+        0.021809596568346024,
+        0.013736252672970295,
+        0.1464008092880249,
+        0.030995773151516914,
+        0.04109407216310501,
+        0.04407395422458649,
+        0.002991809044033289,
+        0.28093498945236206,
+        0.9654538035392761,
+        0.33875077962875366,
+        0.0015378475654870272
+      ]
+    }
+  },
+  {
+    "position": [
+      -0.8102797662289392,
+      1.346250693523847,
+      -3.110687046374374
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.27232393622398376,
+        0.02922067604959011,
+        0.0020845087710767984,
+        0.033568259328603745,
+        0.013363155536353588,
+        0.06903403252363205,
+        0.01911095529794693,
+        0.09436370432376862,
+        0.0730445384979248,
+        0.0948517918586731,
+        0.1185600608587265,
+        0.19005896151065826,
+        0.1844976842403412,
+        0.026791000738739967,
+        0.028332440182566643
+      ],
+      "w/o Vision": [
+        0.008179595693945885,
+        0.07354135811328888,
+        0.06929954886436462,
+        0.07309509068727493,
+        0.05741723254323006,
+        0.11490865796804428,
+        0.43086686730384827,
+        0.08383096754550934,
+        0.16827470064163208,
+        0.07828181236982346,
+        0.04877212643623352,
+        0.1600162237882614,
+        0.8642176985740662,
+        0.5446030497550964,
+        0.012888365425169468
+      ]
+    }
+  },
+  {
+    "position": [
+      2.2812682535946798,
+      1.5208845028209064,
+      -1.386188101590228
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.04006098210811615,
+        0.3047855496406555,
+        0.0067513976246118546,
+        0.2412799745798111,
+        0.20921191573143005,
+        0.060694701969623566,
+        0.10859072208404541,
+        0.05345938354730606,
+        0.23717281222343445,
+        0.1762990951538086,
+        0.06339921057224274,
+        0.12006660550832748,
+        0.03185001015663147,
+        0.004032130818814039,
+        0.013482386246323586
+      ],
+      "w/o Vision": [
+        0.08092033863067627,
+        0.172145813703537,
+        0.2397511750459671,
+        0.2540397644042969,
+        0.12002582848072052,
+        0.22346557676792145,
+        0.3717593252658844,
+        0.07487824559211731,
+        0.056593675166368484,
+        0.020393049344420433,
+        0.02660258300602436,
+        0.02989775501191616,
+        0.45720210671424866,
+        0.06994202733039856,
+        0.050447966903448105
+      ]
+    }
+  },
+  {
+    "position": [
+      1.7949484909943907,
+      0.5501851371901336,
+      -3.940504366818427
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.29756322503089905,
+        0.39402666687965393,
+        0.10228700190782547,
+        0.05987260490655899,
+        0.14443132281303406,
+        0.14262734353542328,
+        0.3268338441848755,
+        0.31211739778518677,
+        0.3442261517047882,
+        0.6185073852539062,
+        0.22535593807697296,
+        0.4075089693069458,
+        0.029925264418125153,
+        0.02061445079743862,
+        0.03372174873948097
+      ],
+      "w/o Vision": [
+        0.17142759263515472,
+        0.1122932881116867,
+        0.3365198075771332,
+        0.2621631920337677,
+        0.20159673690795898,
+        0.35314443707466125,
+        0.5452843904495239,
+        0.38127315044403076,
+        0.5359981656074524,
+        0.457501083612442,
+        0.22253617644309998,
+        0.4148803651332855,
+        0.5412465929985046,
+        0.5974032878875732,
+        0.3271348476409912
+      ]
+    }
+  },
+  {
+    "position": [
+      2.286011217755739,
+      1.9282718206602922,
+      -2.2844560502900384
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.02089671418070793,
+        0.059142209589481354,
+        0.0041337087750434875,
+        0.13050389289855957,
+        0.37826740741729736,
+        0.24632005393505096,
+        0.17473341524600983,
+        0.19799484312534332,
+        0.2816467881202698,
+        0.11510791629552841,
+        0.031341057270765305,
+        0.12323088198900223,
+        0.001420578802935779,
+        0.0019263495923951268,
+        0.01119410153478384
+      ],
+      "w/o Vision": [
+        0.12281670421361923,
+        0.21249833703041077,
+        0.18879437446594238,
+        0.19313693046569824,
+        0.2047412097454071,
+        0.28240466117858887,
+        0.6104676127433777,
+        0.20382094383239746,
+        0.04500808194279671,
+        0.0776480957865715,
+        0.026851942762732506,
+        0.01705341227352619,
+        0.19174979627132416,
+        0.04653973877429962,
+        0.08357156068086624
+      ]
+    }
+  },
+  {
+    "position": [
+      1.3361821384269308,
+      0.09921988860965775,
+      -2.8574168989219593
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.672317624092102,
+        0.2331601083278656,
+        0.0971701592206955,
+        0.026734724640846252,
+        0.2520158290863037,
+        0.2834498882293701,
+        0.40385812520980835,
+        0.20983390510082245,
+        0.404895156621933,
+        0.4693412780761719,
+        0.2872140109539032,
+        0.4227164387702942,
+        0.12025155127048492,
+        0.14567799866199493,
+        0.07815208286046982
+      ],
+      "w/o Vision": [
+        0.15367749333381653,
+        0.23443175852298737,
+        0.33377039432525635,
+        0.14374253153800964,
+        0.11375705152750015,
+        0.12750601768493652,
+        0.5737320184707642,
+        0.33579903841018677,
+        0.1203499510884285,
+        0.18280799686908722,
+        0.0788370668888092,
+        0.1243317574262619,
+        0.7220762372016907,
+        0.08065295964479446,
+        0.07552117854356766
+      ]
+    }
+  },
+  {
+    "position": [
+      -0.5614765984170341,
+      1.4020446556172381,
+      -2.292490422183116
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.047382913529872894,
+        0.030081789940595627,
+        0.0028761113062500954,
+        0.03593564033508301,
+        0.03176380693912506,
+        0.28018155694007874,
+        0.049070343375205994,
+        0.18733546137809753,
+        0.24515677988529205,
+        0.08367131650447845,
+        0.12952567636966705,
+        0.05332808569073677,
+        0.004098705016076565,
+        0.017575755715370178,
+        0.04351654648780823
+      ],
+      "w/o Vision": [
+        0.10682196170091629,
+        0.19035395979881287,
+        0.35461679100990295,
+        0.05119071528315544,
+        0.01944829896092415,
+        0.1254522204399109,
+        0.2817007601261139,
+        0.10231265425682068,
+        0.037313081324100494,
+        0.024830348789691925,
+        0.0038843085058033466,
+        0.01630293019115925,
+        0.6460109353065491,
+        0.02675655670464039,
+        0.005805486813187599
+      ]
+    }
+  },
+  {
+    "position": [
+      -2.1407641179279637,
+      0.0773868848377608,
+      -0.5289073867605342
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.5872212648391724,
+        0.08624868839979172,
+        0.003727404400706291,
+        0.01196327805519104,
+        0.015481160022318363,
+        0.10445807129144669,
+        0.1758192777633667,
+        0.28714510798454285,
+        0.036146074533462524,
+        0.06702003628015518,
+        0.02255881577730179,
+        0.09155040979385376,
+        0.2892313003540039,
+        0.0012945134658366442,
+        0.0006577366730198264
+      ],
+      "w/o Vision": [
+        0.035732805728912354,
+        0.26371559500694275,
+        0.2231774628162384,
+        0.16720156371593475,
+        0.04509473219513893,
+        0.10323809087276459,
+        0.3107508718967438,
+        0.09528744965791702,
+        0.03330247476696968,
+        0.021189488470554352,
+        0.008996767923235893,
+        0.083778016269207,
+        0.9683325886726379,
+        0.07901293784379959,
+        0.005839738994836807
+      ]
+    }
+  },
+  {
+    "position": [
+      0.6761701347561415,
+      1.4818192175990044,
+      0.06550406134620251
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.23977869749069214,
+        0.026722660288214684,
+        0.0018619114998728037,
+        0.09107618033885956,
+        0.023703040555119514,
+        0.12282762676477432,
+        0.08643772453069687,
+        0.17379102110862732,
+        0.5262364745140076,
+        0.24292968213558197,
+        0.15036357939243317,
+        0.3381911516189575,
+        0.3783908784389496,
+        0.013834323734045029,
+        0.01781363971531391
+      ],
+      "w/o Vision": [
+        0.024312781170010567,
+        0.08446507155895233,
+        0.11829010397195816,
+        0.044094037264585495,
+        0.030954711139202118,
+        0.045200031250715256,
+        0.37142571806907654,
+        0.08805451542139053,
+        0.0637713372707367,
+        0.04280432313680649,
+        0.006224609911441803,
+        0.1025550365447998,
+        0.8937139511108398,
+        0.27427420020103455,
+        0.003610905958339572
+      ]
+    }
+  },
+  {
+    "position": [
+      -3.1215696469330085,
+      2.2799709405747564,
+      3.950386813678106
+    ],
+    "photoURL": "https://picsum.photos/200",
+    "data": {
+      "Ours": [
+        0.012487640604376793,
+        0.03848526254296303,
+        0.00747205363586545,
+        0.33398330211639404,
+        0.017729196697473526,
+        0.07386994361877441,
+        0.0749853104352951,
+        0.06867096573114395,
+        0.10599398612976074,
+        0.09673991799354553,
+        0.22774547338485718,
+        0.7527057528495789,
+        0.9479207992553711,
+        0.7528753280639648,
+        0.02655849978327751
+      ],
+      "w/o Vision": [
+        0.9712561368942261,
+        0.2582419812679291,
+        0.9778573513031006,
+        0.12716852128505707,
+        0.057049527764320374,
+        0.03844732791185379,
+        0.07734951376914978,
+        0.05338858813047409,
+        0.0629858449101448,
+        0.21420705318450928,
+        0.009065482765436172,
+        0.6778671741485596,
+        0.9630173444747925,
+        0.7756354808807373,
+        0.012058748863637447
+      ]
+    }
+  }
 ]

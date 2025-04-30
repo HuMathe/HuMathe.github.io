@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>AV-DAR</title>
+  <link rel="icon" type="image/x-icon" href="static/images/icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="static/css/idemo.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  
+  <!-- Three.js from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.123.0/examples/js/loaders/OBJLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.123.0/examples/js/loaders/MTLLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.123.0/examples/js/controls/OrbitControls.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js library -->
+  
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+
+  
+</head>
+<body>
+
+<!-- Video carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <a href="/avdar" class="button is-light">
+      <span class="icon">
+        <i class="fas fa-home"></i>
+      </span>
+      <span>Back to Home</span>
+      </a>
+    <div class="container">
+      <h2 class="title is-3">Interactive Demo </h2>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="demo-wrapper">
+          <div id="idemo"></div>
+          <div id="idemo-panel">
+            <h3 class="idemo-subtitle"><b>Reflection Response Values</b>
+              
+              (Amplitude v.s. Frequency)
+            </h3>
+            
+            <div id="chartContainer">
+              <canvas id="chartCanvasOurs"></canvas>
+            </div>
+            <br>
+            <div id="chartContainer">
+              <canvas id="chartCanvasWoVision"></canvas>
+            </div>
+          </div>
+          <div id="menu">
+            <button id="mtl0">Texture</button>
+            <button id="mtl-vis">RR: Ours</button>
+            <button id="mtl-nov">RR: w/o Vision</button>
+          </div>
+        </div>
+
+        <div class="demo-instructions">
+          <h3>How to Use This Demo</h3>
+          <ol>
+            <li>
+              <strong>Navigate the Scene:</strong>
+              <ul>
+                <li><kbd>Left-click + drag</kbd> to rotate your view.</li>
+                <li><kbd>Right-click + drag</kbd> to pan.</li>
+                <li>Scroll the mouse wheel to zoom in and out.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Inspect a Point's Frequency Response:</strong>
+              <ul>
+                <li>Click any red sphere on the room surface.</li>
+                <li>The two plots on the right show amplitude vs. frequency for that point:</li>
+                <ul>
+                  <li><span style="color:rgb(54, 162, 235)">Blue curve</span> = Ours model.</li>
+                  <li><span style="color:rgb(255, 99, 132)">Red curve</span> = Ours model without vision input.</li>
+                </ul>
+              </ul>
+            </li>
+            <li>
+              <strong>Visualize the Whole-Room Frequency Response:</strong>
+              <!-- <ul>
+                <li>Use the buttons below the scene:</li>
+                <ul>
+                  <li><kbd>Texture</kbd>: show the room texture.</li>
+                  <li><kbd>RR: Ours</kbd>: show the reflection response map predicted by our full model.</li>
+                  <li><kbd>RR: w/o Vision</kbd>: same reflection response map but without using vision input (set vision feature to zero).</li>
+                </ul>
+              </ul> -->
+              <p>Use the buttons below the scene:</p>
+              <table class="demo-controls-table">
+                <thead>
+                  <tr>
+                    <th>Button</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><kbd>Texture</kbd></td>
+                    <td>Show the room texture.</td>
+                  </tr>
+                  <tr>
+                    <td><kbd>RR: Ours</kbd></td>
+                    <td>Show the reflection response map predicted by our full model.</td>
+                  </tr>
+                  <tr>
+                    <td><kbd>RR: w/o Vision</kbd></td>
+                    <td>Same reflection response map but without using vision input (set vision feature to zero).</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ol>
+          <p><em>Tip:</em> Hard, smooth materials tend to reflect high frequencies (red); soft, rough materials reflect low frequencies (blue).</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+<script src="static/js/interactive-demo.js"></script>
+  </body>
+  </html>

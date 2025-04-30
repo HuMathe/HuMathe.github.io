@@ -42,13 +42,13 @@
   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
   
   <!-- Three.js from CDN -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.123.0/examples/js/loaders/OBJLoader.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.123.0/examples/js/loaders/MTLLoader.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.123.0/examples/js/controls/OrbitControls.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js library -->
-  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> Chart.js library -->
+
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
@@ -141,10 +141,12 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="video-01" controls height="100%">
-        <!-- Your video here -->
+      <!-- <video poster="" id="video-01" controls height="100%">
         <source src="static/videos/teaser_fast.mp4" type="video/mp4">
-      </video>
+      </video> -->
+      <div class="publication-video">
+        <iframe src="https://www.youtube.com/embed/thtuB1kRwPU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
       <h2 class="subtitle has-text-centered">
         Binaural audio tour rendered by AV-DAR across 6 real scenes. Trained on 1% (RAF) / 12 (HAA) IRs. Headphones are strongly recommended.
         <!-- Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.  -->
@@ -206,8 +208,105 @@
 </section>
 <!-- End method -->
 
-
+<!-- Video carousel -->
 <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Interactive Demo
+        <a href="idemo.html" class="button is-light">
+          <span class="icon">
+            <i class="fas fa-play"></i>
+          </span>
+          <span>Explore the reflection response yourself!</span>
+        </a>
+      </h2>
+      
+      <!-- <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="demo-wrapper">
+          <div id="idemo"></div>
+          <div id="idemo-panel">
+            <h3 class="idemo-subtitle"><b>Reflection Response Values</b>
+              
+              (Amplitude v.s. Frequency)
+            </h3>
+            
+            <div id="chartContainer">
+              <canvas id="chartCanvasOurs"></canvas>
+            </div>
+            <br>
+            <div id="chartContainer">
+              <canvas id="chartCanvasWoVision"></canvas>
+            </div>
+          </div>
+          <div id="menu">
+            <button id="mtl0">Texture</button>
+            <button id="mtl-vis">RR: Ours</button>
+            <button id="mtl-nov">RR: w/o Vision</button>
+          </div>
+        </div>
+
+        <div class="demo-instructions">
+          <h3>How to Use This Demo</h3>
+          <ol>
+            <li>
+              <strong>Navigate the Scene:</strong>
+              <ul>
+                <li><kbd>Left-click + drag</kbd> to rotate your view.</li>
+                <li><kbd>Right-click + drag</kbd> to pan.</li>
+                <li>Scroll the mouse wheel to zoom in and out.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Inspect a Point's Frequency Response:</strong>
+              <ul>
+                <li>Click any red sphere on the room surface.</li>
+                <li>The two plots on the right show amplitude vs. frequency for that point:</li>
+                <ul>
+                  <li><span style="color:rgb(54, 162, 235)">Blue curve</span> = Ours model.</li>
+                  <li><span style="color:rgb(255, 99, 132)">Red curve</span> = Ours model without vision input.</li>
+                </ul>
+              </ul>
+            </li>
+            <li>
+              <strong>Visualize the Whole-Room Frequency Response:</strong>
+              <p>Use the buttons below the scene:</p>
+              <table class="demo-controls-table">
+                <thead>
+                  <tr>
+                    <th>Button</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><kbd>Texture</kbd></td>
+                    <td>Show the room texture.</td>
+                  </tr>
+                  <tr>
+                    <td><kbd>RR: Ours</kbd></td>
+                    <td>Show the reflection response map predicted by our full model.</td>
+                  </tr>
+                  <tr>
+                    <td><kbd>RR: w/o Vision</kbd></td>
+                    <td>Same reflection response map but without using vision input (set vision feature to zero).</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ol>
+          <p><em>Tip:</em> Hard, smooth materials tend to reflect high frequencies (red); soft, rough materials reflect low frequencies (blue).</p>
+        </div>
+      </div>
+      </div> -->
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+
+<section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Qualitative Results</h2>
@@ -253,97 +352,238 @@
 
 
 
-<!-- Youtube video -->
-<!-- <section class="hero is-small is-light">
+<section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!- - Paper video. - ->
-      <h2 class="title is-3">Video Presentation</h2>
+      <h2 class="title is-3">More Comparisons 
+      </h2>
+      <button
+        class="button is-light is-rounded"
+        onclick="toggleSection('more-contents', this)">
+        <span class="icon">
+          <i class="fas fa-chevron-down"></i>
+        </span>&nbsp;
+      Read More (for people who are interested)
+      </button>
+
       <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
+        <div class="column hidden" id="more-contents">
           
-          <div class="publication-video">
-            <!- - Youtube embed code here - ->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- End youtube video -->
+          <h2 class="title is-4">Example 1: Piano Chord</h2>
+          <table class="compact-table">
+            <tr> 
+              <td>Dry Sound:</td>
+              <td>
+                <audio 
+                  controls 
+                  src="static/demo-media/furnished-0234/audio.wav">
+                </audio>
+              </td>
+              <td>
+                &nbsp; &nbsp; &nbsp; &nbsp; 
+              </td>
+              <td>Layout:</td>
+              <td>
+                <img 
+                  class="compact-media layout-thumb" 
+                  src="static/demo-media/furnished-0234/layout.png" 
+                  alt="Layout" />
+              </td>
+            </tr>
+          </table>
+
+          <table class="demo-table">
+            <tr>
+              <th></th>
+              <th>GT</th>
+              <th>Ours</th>
+              <th>AVR</th>
+              <th>INRAS++</th>
+            </tr>
+            <tr>
+              <th>  RIR </th>
+              <td><img src="static/demo-media/furnished-0234/gt.png" alt="GT RIR" /></td>
+              <td><img src="static/demo-media/furnished-0234/ours.png" alt="Ours RIR" /></td>
+              <td><img src="static/demo-media/furnished-0234/avr.png" alt="AVR RIR" /></td>
+              <td><img src="static/demo-media/furnished-0234/inras.png" alt="INRAS RIR" /></td>
+            </tr>
+            <tr>
+              <th> Rerverb </th>
+              <td><audio controls src="static/demo-media/furnished-0234/gt.wav"></audio></td>
+              <td><audio controls src="static/demo-media/furnished-0234/ours.wav"></audio></td>
+              <td><audio controls src="static/demo-media/furnished-0234/avr.wav"></audio></td>
+              <td><audio controls src="static/demo-media/furnished-0234/inras.wav"></audio></td>
+            </tr>
+          </table>
+
+          <hr class="is-divider">
+
+          <h2 class="title is-4">Example 2: Stomping Drum</h2>
+          <table class="compact-table">
+            <tr> 
+              <td>Dry Sound:</td>
+              <td>
+                <audio 
+                  controls 
+                  src="static/demo-media/furnished-1792/audio.wav">
+                </audio>
+              </td>
+              <td>
+                &nbsp; &nbsp; &nbsp; &nbsp; 
+              </td>
+              <td>Layout:</td>
+              <td>
+                <img 
+                  class="compact-media layout-thumb" 
+                  src="static/demo-media/furnished-1792/layout.png" 
+                  alt="Layout" />
+              </td>
+            </tr>
+          </table>
+
+          <table class="demo-table">
+            <tr>
+              <th></th>
+              <th>GT</th>
+              <th>Ours</th>
+              <th>AVR</th>
+              <th>INRAS++</th>
+            </tr>
+            <tr>
+              <th>  RIR </th>
+              <td><img src="static/demo-media/furnished-1792/gt.png" alt="GT RIR" /></td>
+              <td><img src="static/demo-media/furnished-1792/ours.png" alt="Ours RIR" /></td>
+              <td><img src="static/demo-media/furnished-1792/avr.png" alt="AVR RIR" /></td>
+              <td><img src="static/demo-media/furnished-1792/inras.png" alt="INRAS RIR" /></td>
+            </tr>
+            <tr>
+              <th> Rerverb </th>
+              <td><audio controls src="static/demo-media/furnished-1792/gt.wav"></audio></td>
+              <td><audio controls src="static/demo-media/furnished-1792/ours.wav"></audio></td>
+              <td><audio controls src="static/demo-media/furnished-1792/avr.wav"></audio></td>
+              <td><audio controls src="static/demo-media/furnished-1792/inras.wav"></audio></td>
+            </tr>
+          </table>
+
+          <!-- <table class="raf-table">
+            <thead>
+              <tr>
+                <th rowspan="3">Method</th>
+                <th rowspan="3">Scale</th>
+                <th colspan="4">RAF-Empty</th>
+                <th colspan="4">RAF-Furnished</th>
+              </tr>
+              <tr>
+                <th>Loudness</th>
+                <th>C50</th>
+                <th>EDT</th>
+                <th>T60</th>
+                <th>Loudness</th>
+                <th>C50</th>
+                <th>EDT</th>
+                <th>T60</th>
+              </tr>
+              <tr>
+                <th>(dB) ↓</th>
+                <th>(dB) ↓</th>
+                <th>(ms) ↓</th>
+                <th>(%) ↓</th>
+                <th>(dB) ↓</th>
+                <th>(dB) ↓</th>
+                <th>(ms) ↓</th>
+                <th>(%) ↓</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>NAF++</td>
+                <td>1%</td>
+                <td>6.05</td>
+                <td>2.10</td>
+                <td>94.5</td>
+                <td>23.9</td>
+                <td>6.61</td>
+                <td>2.10</td>
+                <td>74.9</td>
+                <td>23.0</td>
+              </tr>
+              <tr>
+                <td>INRAS++ </td>
+                <td>1%</td>
+                <td>3.69</td>
+                <td>2.59</td>
+                <td>100.3</td>
+                <td>23.5</td>
+                <td>2.96</td>
+                <td>2.61</td>
+                <td>92.6</td>
+                <td>25.0</td>
+              </tr>
+              <tr>
+                <td>AV-NeRF</td>
+                <td>1%</td>
+                <td>3.16</td>
+                <td>2.52</td>
+                <td>96.4</td>
+                <td>21.8</td>
+                <td>2.92</td>
+                <td>2.64</td>
+                <td>96.7</td>
+                <td>24.5</td>
+              </tr>
+              <tr>
+                <td>AVR</td>
+                <td>1%</td>
+                <td class="highlight-secondary">3.00</td>
+                <td>2.19</td>
+                <td>87.3</td>
+                <td>24.1</td>
+                <td>2.97</td>
+                <td>2.33</td>
+                <td class="highlight-secondary">72.3</td>
+                <td>17.9</td>
+              </tr>
+              <tr>
+                <td colspan="10" style="border-top: 2px solid #999;"></td>
+              </tr>
+              <tr>
+                <td>Ours</td>
+                <td>0.1%</td>
+                <td>3.14</td>
+                <td class="highlight-secondary">1.81</td>
+                <td class="highlight-secondary">86.6</td>
+                <td class="highlight-secondary">16.9</td>
+                <td class="highlight-secondary">2.45</td>
+                <td class="highlight-secondary">1.98</td>
+                <td>80.1</td>
+                <td class="highlight-secondary">15.2</td>
+              </tr>
+              <tr>
+                <td>Ours</td>
+                <td>1%</td>
+                <td class="highlight-primary">2.50</td>
+                <td class="highlight-primary">1.42</td>
+                <td class="highlight-primary">56.2</td>
+                <td class="highlight-primary">10.7</td>
+                <td class="highlight-primary">1.68</td>
+                <td class="highlight-primary">1.29</td>
+                <td class="highlight-primary">47.4</td>
+                <td class="highlight-primary">9.61</td>
+              </tr>
+            </tbody>
+            <caption>
+              Results on the Real Acoustic Field dataset (0.32 s, 16 kHz). Cells highlighted in green denote the best performance, and yellow indicates the second best. Note that our model trained on only 0.1 % of the data already achieves lower C50 and T60 errors than baseline methods, and significantly outperforms all baselines when using the same amount of training data.
+            </caption>
+          </table> -->
+
+          <!-- <h2 class="title is-5"> For more quantitaive results, please refer to our paper.</h2> -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Interactive Demo</h2>
-      <div class="columns is-centered has-text-centered">
-        <!-- <div class="column is-four-fifths"> -->
-          
-          <div id="idemo"></div>
-          <div id="menu">
-            <button id="mtl0">Texture</button>
-            <button id="mtl1">Reflectance @ 100%</button>
-            <button id="mtl2">Reflectance @ 0.01%</button>
-            <button id="mtl3">No Vision @ 100%</button>
-          </div>
-          <div class="idemo-panel">
-            <!-- <img id="idemoImage" src="" alt=""> -->
-            <div id="chartContainer">
-              <canvas id="chartCanvas"></canvas>
-            </div>
-          <!-- </div> -->
         </div>
       </div>
-      <!-- <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!- - Your video file here - ->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!- - Your video file here - ->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!- - Your video file here - ->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div> -->
     </div>
   </div>
 </section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section> -->
-<!--End paper poster -->
-
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
@@ -378,6 +618,24 @@
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
     <!-- End of Statcounter Code -->
-    <script src="static/js/interactive-demo.js"></script>
+    <!-- <script src="static/js/interactive-demo.js"></script> -->
+    <script>
+      function toggleSection(divId, btn) {
+        const div = document.getElementById(divId);
+        if (div.classList.contains('hidden')) {
+          div.classList.remove('hidden');
+          btn.innerHTML = `
+            <span class="icon"><i class="fas fa-chevron-up"></i></span>&nbsp;
+            Read Less
+          `;
+        } else {
+          div.classList.add('hidden');
+          btn.innerHTML = `
+            <span class="icon"><i class="fas fa-chevron-down"></i></span>&nbsp;
+            Read More (for people who are interested)
+          `;
+        }
+      }
+    </script>
   </body>
   </html>

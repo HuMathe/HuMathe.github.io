@@ -4,9 +4,9 @@
 }
 
 #idemo-panel{
-    width: 400px;
+    width: 500px;
     /* height: 1000px; */
-    box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+    /* box-shadow: -2px 0 5px rgba(0,0,0,0.2); */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -20,25 +20,55 @@
 }
 #chartContainer {
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
 }
-#chartCanvas {
+#chartCanvasOurs {
+    width: 100%;
+    height: 200px;
+}
+
+#chartCanvasWoVision {
     width: 100%;
     height: 200px;
 }
 
 #menu {
-    position: absolute;
-    top: 650px;
-    left: 600px;
+    position: relative;
+    /* top: 420px;
+    left: 440px; */
+    left: -575px;
+    top: 175px;
     z-index: 10;
     background: rgba(255, 255, 255, 0.8);
     padding: 10px;
     border-radius: 4px;
-  }
-  #menu button {
+    align-items: left;
+}
+#menu button {
     display: block;
     margin: 5px 0;
     padding: 6px 12px;
     font-size: 14px;
-  }
+    /* no wrapping */
+    white-space: nowrap;
+}
+/* 
+.chart-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 16px;
+}
+.chart-grid canvas {
+    width: 300px !important;
+    height: 200px  !important;
+} */
+
+.demo-wrapper {
+    display: flex;
+    /* align-items: flex-start;*/
+    align-items: center;
+}
+#idemo-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}

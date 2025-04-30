@@ -243,7 +243,6 @@ body {
   max-height: 300px;
 }
 .compact-table {
-  /* make the table only as wide as its contents */
   display: inline-table;
   margin: 0 auto;               
   border-collapse: collapse;    
@@ -254,22 +253,19 @@ body {
   padding: 0.25rem 0.5rem;      
   text-align: center;           
   vertical-align: middle;
-  white-space: nowrap;          /* prevent cells from expanding */
+  white-space: nowrap;
 }
 
 .compact-media {
-  /* let the media shrink to its intrinsic size, up to these limits */
   width: auto !important;
-  max-width: 200px;             /* or whatever makes sense for you */
+  max-width: 200px;  
   display: inline-block;
 }
 
-/* If you want the layout image slightly smaller: */
 .layout-thumb {
   max-width: 200px;
 }
 
-/* Container for the placeholder image + overlay */
 .demo-placeholder {
   position: relative;
   overflow: hidden;
@@ -277,7 +273,6 @@ body {
   border-radius: 0.5rem; /* optional rounding */
 }
 
-/* Make the image fill its container */
 .demo-placeholder .demo-img {
   display: block;
   width: 100%;
@@ -298,7 +293,6 @@ body {
   transition: opacity 0.3s ease;
 }
 
-/* Content inside the overlay */
 .demo-placeholder .overlay-content {
   text-align: center;
   color: #fff;
@@ -308,8 +302,6 @@ body {
   margin-top: 0.5rem;
   font-size: 1.1rem;
 }
-
-/* Hover states */
 .demo-placeholder:hover .overlay {
   opacity: 1;
 }

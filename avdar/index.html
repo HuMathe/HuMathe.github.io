@@ -38,6 +38,50 @@
   href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
+  <style>
+    .demo-placeholder {
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      border-radius: 0.5rem;
+    }
+
+    .demo-placeholder .demo-img {
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .demo-placeholder .overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .demo-placeholder .overlay-content {
+      text-align: center;
+      color: #fff;
+    }
+
+    .demo-placeholder .overlay-text {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+    .demo-placeholder:hover .overlay {
+      opacity: 1;
+    }
+    .demo-placeholder:hover .demo-img {
+      transform: scale(1.05);
+    }
+  </style>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
   

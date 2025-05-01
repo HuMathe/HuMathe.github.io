@@ -4,6 +4,7 @@
   project_page: 'avdar'
   description: "The first physics-based, audio-visual differentiable acoustic renderer that uses multi-view images and beam tracing to reconstruct room impulse responses (RIRs) efficiently and accurately from sparse real-world measurements."
   image: avdar_before.png
+  arxiv: 2504.21847
   authors:
     - derong
     - ruohan

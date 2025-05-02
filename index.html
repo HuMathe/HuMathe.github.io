@@ -10,7 +10,7 @@ layout: null
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <title>{{ site.name }}</title>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/ns.html?id={{ site.google_analytics }}"></script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/ns.html?id={{ site.google_analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -21,6 +21,15 @@ layout: null
     gtag('js', new Date());
 
     gtag('config', '{{ site.google_analytics }}');
+  </script> -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GPQT9S1FWC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-GPQT9S1FWC');
   </script>
 
   <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">

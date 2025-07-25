@@ -9,6 +9,9 @@
     - derong
     - ruohan
   venue: ICCV, 2025
+  awards:
+    - "Oral Presentation"
+
 
 
 - id: HMNeRFBench

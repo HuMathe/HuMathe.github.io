@@ -409,7 +409,6 @@
               <!-- Our framework contains two main components for rendering the room impulse response (RIR): <b>(1) Visual Processing (top):</b> Multi-view images of the scene are passed through a pre-trained vision encoder
               to extract pixel-aligned features at sampled points on the room surface. We then apply cross-attention both across views for each sampled point and across sampled points of query x
               to obtain a unified, material-aware visual feature $\mathrm{F}(\mathbf{x})$ (detailed in Section~\ref{sec:vision}). \textbf{(2) Acoustic Processing (bottom):} On the left, we illustrate our acoustic beam tracing procedure (Section~\ref{sec:beamtracing}), where we sample specular paths and compute the path reflection response, conditioned on both the positional encoding (Section~\ref{sec:mip-rr}) and the visual feature $\mathrm{F}({\bf x})$. On the right, we show how we model the residual acoustic field (Section~\ref{sec:residual}) by treating every point on the surface as a secondary sound source and integrating its contribution via Monte-Carlo integration. The entire pipeline is fully differentiable, enabling end-to-end optimization of both acoustic and visual parameters. -->
-              <!-- <math>aa</math> -->
             </h2>
           </figure>
         </div>

@@ -150,10 +150,10 @@ layout: null
             <div class="publication-venue">
               <span>{{ publication.venue }}</span>
               {% if publication.track %}
-                <span class="publication-track-emph">({{ publication.track }})<span>
+                <span class="publication-venue-emph">({{ publication.track }})<span>
               {% endif %}
               {% for award in publication.awards %}
-                <span class="publication-venue-emph">{{ award }}<span>
+                <span class="publication-awards">{{ award }}<span>
               {% endfor %}
             </div>
             <p class="publication-description">{{ publication.description }}</p>

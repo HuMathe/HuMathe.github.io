@@ -1,3 +1,17 @@
+- id: sonoworld
+  title: "SonoWorld: From One Image to a 3D Audio-Visual Scene"
+  description: "A first generative framework for creating explorable 3D audio-visual scenes from one image, with spatial audio grounded in scene semantics and 3D geometry."
+  image: sonoworld-teaser.png
+  authors:
+    - derong
+    - xiyi
+    - ming
+    - ruohan
+  equal_contribution:
+    - derong
+    - xiyi
+  venue: CVPR, 2026
+
 
 - id: avdar
   title: "Differentiable Room Acoustic Rendering with Multi-View Vision Priors"

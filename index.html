@@ -136,16 +136,23 @@ layout: null
             <div class="publication-authors">
               {% for author_id in publication.authors %}
               {% assign author = site.data.authors[author_id] %}
+              {% assign is_equal = false %}
+              {% for eq_id in publication.equal_contribution %}
+                {% if eq_id == author_id %}{% assign is_equal = true %}{% endif %}
+              {% endfor %}
               <span class="author-block {% if author.is_me %}author-me{% endif %}">
                 {% if author.is_me %}
-                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if forloop.last == false %},{%
+                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if is_equal %}*{% endif %}{% if forloop.last == false %},{%
                 endif %}
                 {% else %}
                 <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
-                  }}</a>{% if forloop.last == false %},{% endif %}
+                  }}</a>{% if is_equal %}*{% endif %}{% if forloop.last == false %},{% endif %}
                 {% endif %}
               </span>
               {% endfor %}
+              <!-- {% if publication.equal_contribution %}
+              <span class="author-block equal-contribution-note">(*Equal contribution)</span>
+              {% endif %} -->
             </div>
             <div class="publication-venue">
               <span>{{ publication.venue }}</span>

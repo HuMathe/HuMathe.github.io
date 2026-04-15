@@ -1,7 +1,10 @@
 - id: sonoworld
   title: "SonoWorld: From One Image to a 3D Audio-Visual Scene"
+  project_page: https://HuMathe.github.io/sonoworld
   description: "A first generative framework for creating explorable 3D audio-visual scenes from one image, with spatial audio grounded in scene semantics and 3D geometry."
   image: sonoworld-teaser.png
+  arxiv: 2603.28757
+  github: HuMathe/sonoworld
   authors:
     - derong
     - xiyi
@@ -19,6 +22,7 @@
   description: "A first physics-based, audio-visual differentiable acoustic renderer that uses multi-view images and beam tracing to reconstruct room impulse responses (RIRs) efficiently and accurately from sparse real-world measurements."
   image: avdar_before.png
   arxiv: 2504.21847
+  github: HuMathe/av-dar
   authors:
     - derong
     - ruohan

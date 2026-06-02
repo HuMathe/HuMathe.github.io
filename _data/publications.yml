@@ -5,6 +5,7 @@
   image: sonoworld-teaser.png
   arxiv: 2603.28757
   github: HuMathe/sonoworld
+  poster: https://humathe.github.io/sonoworld/assets/poster-cvpr.pdf
   authors:
     - derong
     - xiyi
@@ -23,6 +24,7 @@
   image: avdar_before.png
   arxiv: 2504.21847
   github: HuMathe/av-dar
+  video: https://www.youtube.com/watch?v=TNx7gvO1aEg&t=2621s
   authors:
     - derong
     - ruohan

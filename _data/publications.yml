@@ -1,5 +1,30 @@
+- id: avmsf
+  title: "Objects as Audio-Visual Modal Sound Fields"
+  project_page: https://zisenshao.github.io/AV-MSF/
+  description: "Reconstructing object-level sound fields from multi-view images and a few impact recordings for impact sound synthesis, contact localization, and sound editing."
+  image: avmsf-preview.webp
+  arxiv: "2608.05145"
+  authors:
+    - zisen
+    - zihao
+    - derong
+    - ruohan
+  equal_contribution:
+    - zisen
+    - zihao
+  venue: ECCV, 2026
+
+
 - id: sonoworld
   title: "SonoWorld: From One Image to a 3D Audio-Visual Scene"
+  featured: true
+  short_title: SonoWorld
+  summary: "Turning a single image into an explorable 3D scene with spatial audio grounded in scene semantics and geometry."
+  preview_image: sonoworld-preview.webp
+  preview_height: 719
+  preview_alt: "A single image becomes a 3D scene with spatially grounded sounds and novel viewpoints."
+  demo_url: https://humathe.github.io/sonoworld/demo.html
+  demo_label: Interactive Demo
   project_page: https://HuMathe.github.io/sonoworld
   description: "A first generative framework for creating explorable 3D audio-visual scenes from one image, with spatial audio grounded in scene semantics and 3D geometry."
   image: sonoworld-teaser.png
@@ -19,6 +44,14 @@
 
 - id: avdar
   title: "Differentiable Room Acoustic Rendering with Multi-View Vision Priors"
+  featured: true
+  short_title: AV-DAR
+  summary: "Learning room acoustics from sparse measurements with multi-view visual priors and differentiable acoustic beam tracing."
+  preview_image: avdar-preview.webp
+  preview_height: 873
+  preview_alt: "Multi-view observations and material-aware sound reflections reconstruct room acoustics."
+  demo_url: https://humathe.github.io/avdar/idemo.html
+  demo_label: Interactive Demo
   project_page: 'avdar'
   description: "A first physics-based, audio-visual differentiable acoustic renderer that uses multi-view images and beam tracing to reconstruct room impulse responses (RIRs) efficiently and accurately from sparse real-world measurements."
   image: avdar_before.png
@@ -54,7 +87,7 @@
 
 
 - id: get3dhuman
-  title: "Get3DHuman: Lifting StyleGAN-Human into a 3D Generative Model using Pixel-aligned Reconstruction Priors."
+  title: "Get3DHuman: Lifting StyleGAN-Human into a 3D Generative Model using Pixel-aligned Reconstruction Priors"
   project_page: https://x-zhangyang.github.io/2023_Get3DHuman/
   description: "A 3D generative framework that produces realistic and diverse digital humans with both texture and geometry by combining both 2D and 3D priors with minimal 3D supervision."
   arxiv: 2302.01162
@@ -92,4 +125,3 @@
 #     - rmbrualla
 #   awards:
 #     - "Oral Presentation"
-

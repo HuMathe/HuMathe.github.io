@@ -14,8 +14,19 @@ xiyi:
   last_name: Chen
   website: https://xiyichen.github.io/
 
+zisen:
+  first_name: Zisen
+  last_name: Shao
+  website: https://zisenshao.github.io/
+
+zihao:
+  first_name: Zihao
+  last_name: Wei
+  website: https://zi-hao-wei.github.io/
+
 ming:
   first_name: Ming
+  middle_name: C.
   last_name: Lin
   website: https://www.cs.umd.edu/~lin/
 
@@ -32,7 +43,7 @@ zhangyang:
 kenkun:
   first_name: Kenkun
   last_name: Liu
-  website: https://kenkunliu.github.io/
+  website: https://kenkunliu.github.io/PersonalPage/
 
 ailingzeng:
   first_name: Ailing
@@ -174,4 +185,3 @@ shuguangcui:
 #   first_name: Xiaoming
 #   last_name: Zhao
 #   website: https://xiaoming-zhao.com/
-

@@ -1,0 +1,187 @@
+% Public website CV. Independent of the private internship application source.
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{tgtermes}
+\usepackage{amsmath,xcolor,geometry,titlesec,enumitem,hyperref,ragged2e}
+\urlstyle{same}
+\newcommand{\name}[1]{}
+\newcommand{\basicInfo}[1]{}
+\newcommand{\datedsubsection}[2]{}
+\newcommand{\datedline}[2]{{\par #1\hfill #2\par}}
+\newcommand{\email}[1]{\href{mailto:#1}{#1}}
+\newcommand{\linkedin}[2][]{\href{#2}{#1}}
+\newcommand{\homepage}[2][]{\href{#2}{#1}}
+\newcommand{\github}[2][]{\href{#2}{#1}}
+
+\definecolor{linkblue}{HTML}{174A72}
+\hypersetup{colorlinks=true,urlcolor=linkblue,linkcolor=linkblue,
+  pdfauthor={Derong Jin},pdftitle={Derong Jin -- Research Resume},
+  pdfsubject={Multimodal Generative Models, Audio-Visual Learning, 3D Vision, and Spatial Audio},
+  pageanchor=false}
+% Consistent typography and spacing, independent of the template defaults.
+\geometry{a4paper,left=0.70in,right=0.70in,top=0.60in,bottom=0.60in}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1em}
+\raggedbottom
+\setlist[itemize]{leftmargin=12pt,labelsep=5pt,topsep=3pt,partopsep=0pt,itemsep=2pt,parsep=0pt}
+\setlist[enumerate]{leftmargin=14pt,labelsep=5pt,topsep=2pt,partopsep=0pt,itemsep=4pt,parsep=0pt}
+\titleformat{\section}{\fontsize{11}{13}\selectfont\bfseries}{}{0pt}{\MakeUppercase}[\vspace{2pt}{\titlerule[0.4pt]}]
+\titlespacing*{\section}{0pt}{11pt}{6pt}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{7pt}{2pt}
+\renewcommand{\name}[1]{{\centering\fontsize{24}{27}\selectfont\bfseries #1\par}\vspace{4pt}}
+\renewcommand{\basicInfo}[1]{{\centering\fontsize{10.5}{12.5}\selectfont #1\par}\vspace{5pt}}
+\renewcommand{\datedsubsection}[2]{%
+  \subsection[#1]{#1\hfill{\normalfont\small #2}}}
+\newcommand{\project}[2]{%
+  \par\addvspace{7pt}\noindent\textbf{#1}\hfill{\small #2}\par\nopagebreak}
+\newcommand{\papertitle}[2]{{\hypersetup{hidelinks}\href{#1}{``#2''}}}
+% Use natural line wrapping to preserve margins across editor and export compilers.
+\newcommand{\fullrow}[1]{#1}
+\newcommand{\oneitem}[1]{\item #1}
+\newcommand{\twoitem}[2]{\item #1 #2}
+
+
+\begin{document}
+\pagenumbering{gobble}
+\fontsize{10.95}{13.2}\selectfont
+\justifying
+\setlength{\parindent}{0pt}
+\hyphenpenalty=100
+\exhyphenpenalty=50
+\name{Derong Jin}
+\basicInfo{
+  \email{djin77@umd.edu} \textperiodcentered\
+  \linkedin[LinkedIn]{https://www.linkedin.com/in/derong-jin-663561256/} \textperiodcentered\
+  \homepage[Website]{https://humathe.github.io/} \textperiodcentered\
+  \github[GitHub]{https://github.com/HuMathe}
+}
+{\centering\fontsize{10}{12}\selectfont
+Multimodal Generative Models \textperiodcentered\ Audio-Visual Learning \textperiodcentered\ 3D Vision \textperiodcentered\ Spatial Audio\par}
+
+\section{Education}
+\datedsubsection{\textbf{University of Maryland, College Park}, MD, USA}{2024 -- May 2030 (Expected)}
+\textit{Ph.D. in Computer Science} \hfill GPA: 4.0/4.0
+\datedsubsection{\textbf{The Chinese University of Hong Kong, Shenzhen}, China}{2020 -- 2024}
+\textit{B.Eng.} in Computer Science and Engineering
+\begin{itemize}
+\item Accumulated GPA: \underline{3.81/4.00}, Major GPA: \underline{3.98/4.00}, rank in class: \underline{4$^\text{th}$/135}
+\item \textbf{Outstanding Graduate Award} (Top 1.1\% among 2024 Undergraduate Cohort)
+\item \textbf{Academic Performance Scholarship} and \textbf{Dean's List Award} in every year
+\end{itemize}
+
+\section{Publications}
+{\small ($^*$ indicates equal contribution.)\par}
+% Continuous, hanging-indent citations following Ruohan Gao's CV style.
+\begingroup
+\spaceskip=0pt
+\rightskip=0pt
+\parfillskip=0pt plus 1fil
+\begin{enumerate}[itemsep=5pt]
+\item \textbf{Derong Jin}$^*$, Xiyi Chen$^*$, Ming C. Lin, and Ruohan Gao,
+``SonoWorld4D: Generating a 4D Audio-Visual Scene from One Video via Diffusion Synchronization'', \textit{Under Review.}
+
+\item Zisen Shao$^*$, Zihao Wei$^*$, \textbf{Derong Jin}, and Ruohan Gao,
+\papertitle{https://arxiv.org/abs/2608.05145}{Objects as Audio-Visual Modal Sound Fields}, in \textit{Proceedings of the European Conference on Computer Vision} (ECCV), 2026.
+
+\item \textbf{Derong Jin}$^*$, Xiyi Chen$^*$, Ming C. Lin, and Ruohan Gao,
+\papertitle{https://arxiv.org/abs/2603.28757}{SonoWorld: From One Image to a 3D Audio-Visual Scene}, in \textit{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition} (CVPR), 2026.
+
+\item \textbf{Derong Jin} and Ruohan Gao,
+\papertitle{https://arxiv.org/abs/2504.21847}{Differentiable Room Acoustic Rendering with Multi-View Vision Priors}, in \textit{Proceedings of the IEEE International Conference on Computer Vision} (ICCV), 2025. ({\color{red}Oral presentation})
+
+\item Kenkun Liu, \textbf{Derong Jin}, Ailing Zeng, Xiaoguang Han, and Lei Zhang,
+\papertitle{https://openreview.net/forum?id=7kc4gtEk3b}{A Comprehensive Benchmark for Neural Human Radiance Fields}, in \textit{Advances in Neural Information Processing Systems, Datasets and Benchmarks Track} (NeurIPS), 2023.
+
+\item Zhangyang Xiong, Di Kang, \textbf{Derong Jin}, Weikai Chen, Linchao Bao, Shuguang Cui, and Xiaoguang Han,
+\papertitle{https://arxiv.org/abs/2302.01162}{Get3DHuman: Lifting StyleGAN-Human into a 3D Generative Model using Pixel-aligned Reconstruction Priors}, in \textit{Proceedings of the IEEE International Conference on Computer Vision} (ICCV), 2023.
+\end{enumerate}
+\endgroup
+
+\section{Research Experience}
+\subsection{\textbf{University of Maryland, College Park}}
+\textit{Research Assistant, Multisensory Machine Intelligence Lab} \hfill Advisor: Prof. Ruohan Gao
+
+% Methods and results verified against the user-provided anonymized manuscript.
+% Foreground/background generation are collaborators' contributions.
+\project{SonoWorld4D: 4D Audio-Visual Scene Generation {\normalfont\small\textit{(Under Review)}}}{May 2026 -- Present}
+\begin{itemize}
+\item Developed SonoWorld4D, the first framework to turn a \textbf{monocular video into an explorable 4D audio-visual scene}, enabling real-time free-viewpoint exploration with spatial audio synchronized with moving objects.
+\item Designed \textbf{foreground-background alignment} to ground independently generated moving objects and the background in a shared world frame, giving each sound source a physically consistent position and trajectory.
+\item Designed \textbf{dual-space diffusion synchronization} to couple video-conditioned and object-centric audio generation, producing per-object sounds that match the input video yet can be re-rendered along any listener trajectory.
+\item Collected a \textbf{54-scene benchmark} with ambisonics recorded at novel listener poses; improved spatial correlation by \textbf{45\%} vs.\ Sonic4D, and was preferred in \textbf{66--94\%} of user-study comparisons.
+\end{itemize}
+
+\project{SonoWorld: 3D Audio-Visual Scene Generation (CVPR 2026)}{May 2025 -- Mar 2026}
+\begin{itemize}
+\item Developed SonoWorld to lift a \textbf{single image into an explorable 3D scene} via panoramic semantic grounding, with differentiable ambisonics rendering for point sources, spatially extended emitters, and ambient sound.
+\oneitem{Built an \textbf{interactive real-time audio-visual viewer} with synchronized 3D visuals and pose-dependent audio.}
+\begin{samepage}
+\twoitem{Curated SonoScene360, a calibrated 360$^\circ$ audio-visual benchmark; achieved}
+  {at least \textbf{47\%} lower angular DOA error and \textbf{239\%} higher spatial correlation compared with spatial-audio baselines in 3D audio-visual scenes.}
+\par
+\end{samepage}
+\end{itemize}
+
+\project{AV-DAR: Differentiable Audio-Visual Acoustic Rendering (ICCV 2025, Oral)}{Sep 2024 -- May 2025}
+\begin{itemize}
+\twoitem{Developed AV-DAR in PyTorch using a physics-based differentiable room-acoustic rendering pipeline with}
+  {end-to-end differentiable acoustic beam tracing to learn from sparse measured room impulse responses (RIRs).}
+\twoitem{Designed cross-attention to align the features from multiple camera views with a 3D scene representation and}
+  {derive material-aware priors for acoustic reflection, enabling RIR prediction at unobserved listener locations.}
+\twoitem{Evaluated AV-DAR on \textbf{six real-world scenes}; achieved comparable performance on the Real Acoustic Field}
+  {dataset using only \textbf{0.1\%} of the training RIRs, versus baselines trained on \textbf{1\%} of the same data (\textbf{10$\times$} more).}
+\twoitem{On RAF-Empty at 1\% training data, reduced the loudness error from \textbf{3.00 to 2.50 dB} (\textbf{16.6\%}) vs.\ AVR and}
+  {T60 error from \textbf{21.8\% to 10.7\%} (\textbf{50.9\%}) vs.\ AV-NeRF; each comparison uses the best baseline for that metric.}
+\end{itemize}
+
+\subsection{\textbf{The Chinese University of Hong Kong, Shenzhen}}
+\textit{Research Assistant, GAP Lab} \hfill Advisor: Prof. Xiaoguang Han
+
+\project{Neural Human Radiance Fields Benchmark (NeurIPS 2023)}{May 2023 -- Aug 2023}
+\begin{itemize}
+\oneitem{Reproduced \textbf{four human rendering baselines across three datasets} with standardized data splits and metrics.}
+\oneitem{Analyzed how estimated foreground masks and SMPL body parameters affect neural human rendering quality.}
+\end{itemize}
+
+\project{Get3DHuman: 3D Human Generation (ICCV 2023)}{May 2022 -- May 2023}
+\begin{itemize}
+\twoitem{Redesigned the volumetric decoder with signed distance fields (SDFs), tri-plane features, and progressive}
+  {multi-resolution training to improve the geometric fidelity and topological consistency of generated humans.}
+\oneitem{Reproduced and evaluated three state-of-the-art neural 3D human generation baselines on a lab-curated dataset.}
+\end{itemize}
+
+\section{Technical Skills}
+\begin{itemize}
+\oneitem{\textbf{Machine Learning:} Python, PyTorch, OpenCV; diffusion models, flow matching, multimodal learning.}
+\oneitem{\textbf{3D \& Simulation:} Gaussian splatting, differentiable rendering, spatial audio, Three.js, OpenGL, Blender.}
+\oneitem{\textbf{Programming \& Tools:} C/C++, CUDA, JavaScript, Git, CMake, MPI, OpenMP, LaTeX.}
+\end{itemize}
+
+\section{Teaching Experience}
+\datedsubsection{\textbf{University of Maryland, College Park}}{Aug 2025 -- Dec 2025}
+\textit{Graduate Teaching Assistant} --- CMSC498K: Introduction to Multimodal Deep Learning
+\begin{itemize}
+\twoitem{Designed coding assignments and midterm review materials for \textbf{51 students} in Multimodal Deep Learning;}
+  {held weekly office hours, answered online course questions, and graded student assignments and examinations.}
+\end{itemize}
+
+\datedsubsection{\textbf{The Chinese University of Hong Kong, Shenzhen}}{Feb 2022 -- May 2024}
+\textit{Undergraduate Teaching Assistant} --- CSC4120, CSC3100, CSC1002, STA2001
+\begin{itemize}
+\oneitem{Led weekly tutorials and review sessions, preparing problem sets, solutions, and additional course materials.}
+\end{itemize}
+
+\section{Selected Honors \& Awards}
+\datedline{Academic Performance Scholarship (top 3--7\%)}{2021, 2022, 2023}
+\datedline{Dean's List Award, every undergraduate year}{2020 -- 2024}
+\datedline{School of Data Science TA/USTF Award}{2023}
+\datedline{Undergraduate Research Award}{2022}
+\datedline{ICPC Asia Regional Silver Medals: Kunming (2022), Shanghai (2021)}{2021 -- 2022}
+\datedline{Meritorious Winner, Mathematical Contest in Modeling}{2023}
+
+\section{Academic Service}
+\fullrow{Peer reviewer: ICLR 2027, AAAI 2026, CVPR 2026, NeurIPS 2026 (\textbf{Top Reviewer}); IEEE Transactions on Emerging Topics in Computing.}
+
+\end{document}

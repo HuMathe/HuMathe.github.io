@@ -27,6 +27,9 @@
   image: avmsf-preview.webp
   thumbnail: avmsf-preview.webp
   arxiv: "2608.05145"
+  github: ZisenShao/AV-MSF
+  video: https://www.youtube.com/watch?v=LaNWn3mkHkY
+  poster: https://zisenshao.github.io/AV-MSF/data/poster.png
   authors:
     - zisen
     - zihao

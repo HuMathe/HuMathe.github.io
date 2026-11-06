@@ -132,6 +132,7 @@ h1 {
   align-items: start;
   & + & { margin-top: 30px; }
 }
+.pub-body { grid-column: 2; min-width: 0; }
 .pub-figure {
   display: block;
   aspect-ratio: 8 / 5;
@@ -225,6 +226,7 @@ h1 {
   .section { padding-top: 40px; }
   .section h2 { font-size: 21px; }
   .pub { grid-template-columns: minmax(0, 1fr); row-gap: 12px; & + & { margin-top: 36px; } }
+  .pub-body { grid-column: auto; }
   .pub-figure { max-width: 440px; aspect-ratio: auto; img { height: auto; } }
   .pub-title { font-size: 17px; }
   .pub-authors, .pub-venue { font-size: 15px; }

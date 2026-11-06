@@ -60,7 +60,8 @@ layout: null
         <article class="pub" aria-labelledby="pub-{{ publication.id }}">
           {% if publication.thumbnail %}
           <a class="pub-figure" href="{{ project_url }}" tabindex="-1" aria-hidden="true">
-            <img src="{{ '/images/' | append: publication.thumbnail | relative_url }}" alt="" width="400" height="250" loading="lazy" decoding="async">
+            {% assign thumb_url = publication.thumbnail %}{% unless thumb_url contains '://' %}{% assign thumb_url = '/images/' | append: thumb_url | relative_url %}{% endunless %}
+            <img src="{{ thumb_url }}" alt="" width="400" height="250" loading="lazy" decoding="async">
           </a>
           {% endif %}
           <div class="pub-body">

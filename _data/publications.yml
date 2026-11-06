@@ -1,3 +1,25 @@
+- id: sonoworld4d
+  title: "SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization"
+  short_title: SonoWorld4D
+  project_page: https://humathe.github.io/sonoworld4d/
+  demo_url: https://humathe.github.io/sonoworld4d/demo.html
+  description: "A first framework that turns a single monocular video into an explorable 4D audio-visual scene, with spatial audio for each moving sound source kept consistent through dual-space diffusion synchronization."
+  # Overview figure hosted on the project page. Replace with a local WebP in images/ when available.
+  thumbnail: https://humathe.github.io/sonoworld4d/assets/sonoworld4d.png
+  arxiv: "2610.40640"
+  github: HuMathe/sonoworld4d
+  code_coming_soon: true
+  authors:
+    - derong
+    - xiyi
+    - ming
+    - ruohan
+  equal_contribution:
+    - derong
+    - xiyi
+  venue: arXiv, 2026
+
+
 - id: avmsf
   title: "Objects as Audio-Visual Modal Sound Fields"
   project_page: https://zisenshao.github.io/AV-MSF/

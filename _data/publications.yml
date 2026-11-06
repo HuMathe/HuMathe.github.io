@@ -4,8 +4,8 @@
   project_page: https://humathe.github.io/sonoworld4d/
   demo_url: https://humathe.github.io/sonoworld4d/demo.html
   description: "A first framework that turns a single monocular video into an explorable 4D audio-visual scene, with spatial audio for each moving sound source kept consistent through dual-space diffusion synchronization."
-  # Overview figure hosted on the project page. Replace with a local WebP in images/ when available.
-  thumbnail: https://humathe.github.io/sonoworld4d/assets/sonoworld4d.png
+  # Frame 238 of the SonoWorld4D teaser GIF (porsche scene, "Overall" result).
+  thumbnail: sonoworld4d-preview.webp
   arxiv: "2610.40640"
   github: HuMathe/sonoworld4d
   code_coming_soon: true

@@ -21,7 +21,8 @@
 title: Derong Jin
 name: Derong Jin
 name_cn: 金德容
-position: Ph.D. Student
+position: Ph.D. Student in Computer Science
+affiliation: University of Maryland, College Park
 email: djin77@umd.edu
 description: >-
   My research lies at the intersection of multimodal learning, generative modeling, and 3D vision. My current work focuses on reconstructing and generating audio-visual environments from minimal observations.

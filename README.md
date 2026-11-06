@@ -9,9 +9,14 @@ Run `bundle install` once, then `bundle exec jekyll serve --host 127.0.0.1`.
 The preview is available at `http://127.0.0.1:4000`. Restart the server after
 changing `_config.yml`.
 
-The homepage reads its biography from `_config.yml` and publications from
-`_data/publications.yml`. The two entries marked `featured: true` supply the
-research previews and demo links; their images live in `images/`.
+The homepage reads its biography, position and affiliation from `_config.yml`
+and publications from `_data/publications.yml`. Each publication's
+`thumbnail` (an image in `images/`, ideally ~1000px wide WebP) is shown beside
+the entry, and `demo_url` adds an "Interactive demo" link.
+
+The page is set in STIX Two Text (Google Fonts), with the Chinese name in
+Noto Serif SC loaded only for those three glyphs. Styles live in
+`css/index.scss`.
 
 ## Public CV
 

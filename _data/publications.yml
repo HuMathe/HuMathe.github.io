@@ -3,6 +3,7 @@
   project_page: https://zisenshao.github.io/AV-MSF/
   description: "Reconstructing object-level sound fields from multi-view images and a few impact recordings for impact sound synthesis, contact localization, and sound editing."
   image: avmsf-preview.webp
+  thumbnail: avmsf-preview.webp
   arxiv: "2608.05145"
   authors:
     - zisen
@@ -28,6 +29,7 @@
   project_page: https://HuMathe.github.io/sonoworld
   description: "A first generative framework for creating explorable 3D audio-visual scenes from one image, with spatial audio grounded in scene semantics and 3D geometry."
   image: sonoworld-teaser.png
+  thumbnail: sonoworld-preview.webp
   arxiv: 2603.28757
   github: HuMathe/sonoworld
   poster: https://humathe.github.io/sonoworld/assets/poster-cvpr.pdf
@@ -55,6 +57,7 @@
   project_page: 'avdar'
   description: "A first physics-based, audio-visual differentiable acoustic renderer that uses multi-view images and beam tracing to reconstruct room impulse responses (RIRs) efficiently and accurately from sparse real-world measurements."
   image: avdar_before.png
+  thumbnail: avdar-preview.webp
   arxiv: 2504.21847
   github: HuMathe/av-dar
   video: https://www.youtube.com/watch?v=TNx7gvO1aEg&t=2621s
@@ -72,6 +75,7 @@
   project_page: https://kenkunliu.github.io/HMNeRFBench/
   description: "A unified benchmark for human NeRF models, providing standardized datasets, metrics, and a generalizable baseline."
   image: hmbench_before.png
+  thumbnail: hmnerfbench-preview.webp
   image_mouseover: hmbench_after.mp4
   venue: NeurIPS, 2023
   github: KenkunLiu/HMNeRFBench_release
@@ -92,6 +96,7 @@
   description: "A 3D generative framework that produces realistic and diverse digital humans with both texture and geometry by combining both 2D and 3D priors with minimal 3D supervision."
   arxiv: 2302.01162
   image: get3dhuman.png
+  thumbnail: get3dhuman-preview.webp
   venue: ICCV, 2023
   github: GAP-LAB-CUHK-SZ/Get3DHuman
   authors:

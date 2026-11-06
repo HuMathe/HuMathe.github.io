@@ -8,11 +8,13 @@ layout: null
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ site.name }} | Audio-Visual Learning &amp; 3D Vision</title>
   <meta name="description" content="{{ site.description | escape }}">
+  <meta name="author" content="{{ site.name }}">
   <link rel="canonical" href="{{ '/' | absolute_url }}">
   <link rel="icon" href="{{ '/images/maryland-logo.png' | relative_url }}" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&text=%E9%87%91%E5%BE%B7%E5%AE%B9&display=swap" rel="stylesheet">
   <link href="{{ '/css/index.css' | relative_url }}" rel="stylesheet">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GPQT9S1FWC"></script>
   <script>
@@ -23,120 +25,97 @@ layout: null
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#research">Skip to research</a>
-  <main class="page-shell">
-    <header class="profile" aria-labelledby="profile-name">
-      <div class="profile-copy">
-        <h1 id="profile-name">{{ site.name }} <span class="name-cn" lang="zh">{{ site.name_cn }}</span></h1>
-        <div class="biography">{{ site.biography | markdownify }}</div>
-        <p class="research-focus">{{ site.description }}</p>
-        <div class="background">{{ site.background | markdownify }}</div>
-        <p class="internship-notice">{{ site.internship_notice }}</p>
-        <nav class="profile-links" aria-label="Contact and profiles">
-          <a class="profile-link profile-link-primary" href="mailto:{{ site.email }}">Email <span aria-hidden="true">↗</span></a>
-          <a class="profile-link" href="{{ '/files/derong-jin-cv.pdf' | relative_url }}">CV <span class="file-type">PDF</span></a>
-          <a class="profile-link" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">Scholar <span aria-hidden="true">↗</span></a>
-          <a class="profile-link" href="https://github.com/{{ site.github_username }}">GitHub <span aria-hidden="true">↗</span></a>
-        </nav>
+  <a class="skip-link" href="#publications">Skip to publications</a>
+  <main class="page">
+    <header class="masthead">
+      <div class="masthead-title">
+        <h1>{{ site.name }} <span class="name-zh" lang="zh-Hans">{{ site.name_cn }}</span></h1>
+        <p class="affiliation">{{ site.position }}<br>{{ site.affiliation }}</p>
       </div>
-      <img class="portrait" src="{{ '/images/portrait-small.webp' | relative_url }}" alt="Portrait of {{ site.name }}" width="180" height="180" fetchpriority="high">
+      <img class="portrait" src="{{ '/images/portrait-small.webp' | relative_url }}" alt="Portrait of {{ site.name }}" width="360" height="360" fetchpriority="high">
+      <div class="masthead-body">
+        <div class="bio">
+          {{ site.biography | markdownify }}
+          <p>{{ site.description }}</p>
+          {{ site.background | markdownify }}
+          <p class="notice">{{ site.internship_notice }}</p>
+        </div>
+        <p class="contact">
+          <a href="mailto:{{ site.email }}">Email</a><span class="sep" aria-hidden="true">/</span><a href="{{ '/files/derong-jin-cv.pdf' | relative_url }}">CV</a><span class="sep" aria-hidden="true">/</span><a href="https://scholar.google.com/citations?user={{ site.google_scholar }}">Google Scholar</a><span class="sep" aria-hidden="true">/</span><a href="https://github.com/{{ site.github_username }}">GitHub</a>
+        </p>
+      </div>
     </header>
 
-    <section class="research-section" id="research" aria-labelledby="research-heading">
-      <div class="section-heading">
-        <h2 id="research-heading">Featured Research</h2>
-        <a class="section-link" href="#publications">All publications <span aria-hidden="true">↓</span></a>
-      </div>
-      <div class="featured-grid">
-        {% assign featured_publications = site.data.publications | where: 'featured', true %}
-        {% for publication in featured_publications %}
-        {% assign project_url = publication.project_page %}
-        {% unless project_url contains '://' %}{% assign project_url = project_url | relative_url %}{% endunless %}
-        {% assign demo_url = publication.demo_url %}
-        {% unless demo_url contains '://' %}{% assign demo_url = demo_url | relative_url %}{% endunless %}
-        <article class="research-card" aria-labelledby="featured-{{ publication.id }}">
-          <a class="research-preview" href="{{ project_url }}" aria-label="View the {{ publication.short_title }} project">
-            <img src="{{ '/images/' | append: publication.preview_image | relative_url }}" alt="{{ publication.preview_alt | default: publication.title | escape }}" width="1000" height="{{ publication.preview_height }}" loading="lazy" decoding="async">
-          </a>
-          <div class="research-card-body">
-            <div class="research-meta">
-              <span>{{ publication.venue | remove: ',' }}</span>
-              {% for award in publication.awards %}<span class="award-label">{{ award }}</span>{% endfor %}
-            </div>
-            <h3 id="featured-{{ publication.id }}"><a href="{{ project_url }}">{{ publication.short_title }}</a></h3>
-            <p>{{ publication.summary }}</p>
-            <div class="research-links">
-              <a class="demo-link" href="{{ demo_url }}" aria-label="{{ publication.short_title }} interactive demo">{{ publication.demo_label }} <span aria-hidden="true">↗</span></a>
-              <a href="{{ project_url }}">Project page <span aria-hidden="true">↗</span></a>
-            </div>
-          </div>
-        </article>
-        {% endfor %}
-      </div>
-      <p class="demo-note">For the full spatial-audio experience, explore the demos on a desktop with headphones.</p>
-    </section>
-
-    <section class="publications-section" id="publications" aria-labelledby="publications-heading">
-      <div class="section-heading">
+    <section class="section" id="publications" aria-labelledby="publications-heading">
+      <div class="section-head">
         <h2 id="publications-heading">Publications</h2>
         <p class="section-note">* Equal contribution</p>
       </div>
-      <div class="publication-list">
+      <div class="pub-list">
         {% for publication in site.data.publications %}
         {% assign project_url = publication.project_page %}
         {% unless project_url contains '://' %}{% assign project_url = project_url | relative_url %}{% endunless %}
-        <article class="publication" aria-labelledby="publication-{{ publication.id }}">
-          <h3 id="publication-{{ publication.id }}"><a href="{{ project_url }}">{{ publication.title }}</a></h3>
-          <p class="publication-authors">
-            {% for author_id in publication.authors %}
-            {% assign author = site.data.authors[author_id] %}
-            {% assign is_equal = false %}
-            {% if publication.equal_contribution contains author_id %}{% assign is_equal = true %}{% endif %}
-            <span class="author{% if author.is_me %} author-me{% endif %}">{% if author.is_me %}<strong>{{ author.first_name }}{% if author.middle_name %} {{ author.middle_name }}{% endif %} {{ author.last_name }}</strong>{% elsif author.website %}<a href="{{ author.website }}">{{ author.first_name }}{% if author.middle_name %} {{ author.middle_name }}{% endif %} {{ author.last_name }}</a>{% else %}{{ author.first_name }}{% if author.middle_name %} {{ author.middle_name }}{% endif %} {{ author.last_name }}{% endif %}{% if is_equal %}*{% endif %}{% unless forloop.last %},{% endunless %}</span>
-            {% endfor %}
-          </p>
-          <p class="publication-venue">{{ publication.venue | remove: ',' }}{% if publication.track %} <span class="publication-track">· {{ publication.track }}</span>{% endif %}{% for award in publication.awards %} <span class="award-label">· {{ award }}</span>{% endfor %}</p>
-          <div class="publication-links" role="group" aria-label="Resources for {{ publication.title | escape }}">
-            <a href="{{ project_url }}">Project</a>
-            {% if publication.pdf %}<a href="{{ publication.pdf }}">Paper</a>{% elsif publication.arxiv %}<a href="https://arxiv.org/pdf/{{ publication.arxiv }}">Paper</a>{% endif %}
-            {% if publication.arxiv %}<a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv</a>{% endif %}
-            {% if publication.github %}<a href="https://github.com/{{ publication.github }}">{% if publication.code_coming_soon %}Code (coming soon){% else %}Code{% endif %}</a>{% endif %}
-            {% if publication.video %}<a href="{{ publication.video }}">Video</a>{% endif %}
-            {% if publication.poster %}<a href="{{ publication.poster }}">Poster</a>{% endif %}
+        {% assign demo_url = publication.demo_url %}
+        {% if demo_url %}{% unless demo_url contains '://' %}{% assign demo_url = demo_url | relative_url %}{% endunless %}{% endif %}
+        <article class="pub" aria-labelledby="pub-{{ publication.id }}">
+          {% if publication.thumbnail %}
+          <a class="pub-figure" href="{{ project_url }}" tabindex="-1" aria-hidden="true">
+            <img src="{{ '/images/' | append: publication.thumbnail | relative_url }}" alt="" width="400" height="250" loading="lazy" decoding="async">
+          </a>
+          {% endif %}
+          <div class="pub-body">
+            <h3 class="pub-title" id="pub-{{ publication.id }}"><a href="{{ project_url }}">{{ publication.title }}</a></h3>
+            <p class="pub-authors">
+              {% for author_id in publication.authors %}{% assign author = site.data.authors[author_id] %}{% capture author_name %}{{ author.first_name }}{% if author.middle_name %} {{ author.middle_name }}{% endif %} {{ author.last_name }}{% endcapture %}<span class="author">{% if author.is_me %}<strong>{{ author_name }}</strong>{% elsif author.website %}<a href="{{ author.website }}">{{ author_name }}</a>{% else %}{{ author_name }}{% endif %}{% if publication.equal_contribution contains author_id %}<span class="equal" title="Equal contribution">*</span>{% endif %}{% unless forloop.last %}, {% endunless %}</span>{% endfor %}
+            </p>
+            <p class="pub-venue"><em>{{ publication.venue | remove: ',' }}</em>{% if publication.track %}, {{ publication.track }}{% endif %}{% for award in publication.awards %}, <span class="distinction">{{ award }}</span>{% endfor %}</p>
+            {% if publication.description %}<p class="pub-summary">{{ publication.description }}</p>{% endif %}
+            <p class="pub-links">
+              <a href="{{ project_url }}">Project page</a>
+              {% if publication.pdf %}<a href="{{ publication.pdf }}">Paper</a>{% elsif publication.arxiv %}<a href="https://arxiv.org/pdf/{{ publication.arxiv }}">Paper</a>{% endif %}
+              {% if publication.arxiv %}<a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv</a>{% endif %}
+              {% if publication.github %}<a href="https://github.com/{{ publication.github }}">{% if publication.code_coming_soon %}Code (coming soon){% else %}Code{% endif %}</a>{% endif %}
+              {% if publication.video %}<a href="{{ publication.video }}">Video</a>{% endif %}
+              {% if publication.poster %}<a href="{{ publication.poster }}">Poster</a>{% endif %}
+              {% if demo_url %}<a class="demo-link" href="{{ demo_url }}">Interactive demo</a>{% endif %}
+            </p>
           </div>
         </article>
         {% endfor %}
       </div>
+      <p class="footnote">Interactive demos include spatial audio and are best experienced on a desktop with headphones.</p>
     </section>
 
-    <section class="academic-section" aria-label="Academic activities">
-      <div class="academic-grid">
-        <section aria-labelledby="awards-heading">
-          <h2 id="awards-heading">Selected Awards</h2>
-          <ul class="detail-list">
-            {% for award in site.data.awards %}
-            <li><span class="detail-name">{{ award.name }}{% if award.percentage %} <span class="detail-context">({{ award.percentage }})</span>{% endif %}</span><span class="detail-date">{{ award.date }}</span></li>
-            {% endfor %}
-          </ul>
-        </section>
-        <section aria-labelledby="teaching-heading">
-          <h2 id="teaching-heading">Teaching</h2>
-          <ul class="detail-list">
-            {% assign umd_course = site.data.teaching | where: 'institution', 'UMD' | first %}
-            <li><span class="detail-name">{{ umd_course.code }}: {{ umd_course.title }}<span class="detail-context">Graduate TA · University of Maryland</span></span><span class="detail-date">{{ umd_course.semester }}</span></li>
-            <li><span class="detail-name">Algorithms, Data Structures, Programming &amp; Probability<span class="detail-context">Undergraduate TA · CUHK-Shenzhen</span></span><span class="detail-date">2022–2024</span></li>
-          </ul>
-        </section>
-      </div>
-      <section class="service-section" aria-labelledby="service-heading">
-        <h2 id="service-heading">Academic Service</h2>
-        <p>Peer reviewer: ICLR 2027, AAAI 2026, CVPR 2026, NeurIPS 2026 (<strong>Top Reviewer</strong>); IEEE Transactions on Emerging Topics in Computing.</p>
-      </section>
+    <section class="section" id="awards" aria-labelledby="awards-heading">
+      <h2 id="awards-heading">Awards</h2>
+      <dl class="entries">
+        {% for award in site.data.awards %}
+        <div class="entry"><dt>{{ award.date }}</dt><dd>{{ award.name }}{% if award.percentage %} <span class="aside">({{ award.percentage }})</span>{% endif %}</dd></div>
+        {% endfor %}
+      </dl>
+    </section>
+
+    <section class="section" id="teaching" aria-labelledby="teaching-heading">
+      <h2 id="teaching-heading">Teaching</h2>
+      <dl class="entries">
+        {% assign umd_course = site.data.teaching | where: 'institution', 'UMD' | first %}
+        <div class="entry"><dt>{{ umd_course.semester }}</dt><dd>Graduate Teaching Assistant, {{ umd_course.code }}: <em>{{ umd_course.title }}</em><span class="aside block">University of Maryland, College Park</span></dd></div>
+        <div class="entry"><dt>2022&ndash;2024</dt><dd>Undergraduate Teaching Assistant, <em>Algorithms, Data Structures, Programming, and Probability</em><span class="aside block">The Chinese University of Hong Kong, Shenzhen</span></dd></div>
+      </dl>
+    </section>
+
+    <section class="section" id="service" aria-labelledby="service-heading">
+      <h2 id="service-heading">Academic Service</h2>
+      <dl class="entries">
+        <div class="entry"><dt>Conference reviewer</dt><dd>ICLR 2027, AAAI 2026, CVPR 2026, NeurIPS 2026 <span class="distinction">(Top Reviewer)</span></dd></div>
+        <div class="entry"><dt>Journal reviewer</dt><dd><em>IEEE Transactions on Emerging Topics in Computing</em></dd></div>
+      </dl>
     </section>
   </main>
-  <footer class="site-footer page-shell">
-    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-    <p>Template credit: <a href="https://github.com/keunhong/keunhong.github.io">Keunhong Park</a></p>
+
+  <footer class="page site-footer">
+    <p>Last updated {{ site.time | date: "%B %Y" }}.</p>
+    <p>Template adapted from <a href="https://github.com/keunhong/keunhong.github.io">Keunhong Park</a>.</p>
   </footer>
 </body>
 </html>

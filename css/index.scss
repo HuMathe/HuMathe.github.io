@@ -66,7 +66,7 @@ a {
   width: 168px; height: 168px;
   object-fit: cover;
   margin-top: 6px;
-  border-radius: 50%;
+  border-radius: 8%; // ~14px at 168px, scales down with the mobile sizes
 }
 .masthead-body { grid-area: body; }
 
